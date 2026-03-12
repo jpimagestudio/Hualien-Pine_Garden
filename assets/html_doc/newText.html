@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>慢慢生活館 | 花蓮工藝美學</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500;700&family=Noto+Sans+TC:wght@300;400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --pine-green: #2d4635;
+      --wood-brown: #8d775f;
+      --soft-white: #fdfcf8;
+      --stone-gray: #7d7d7d;
+      --accent-gold: #c5a35d;
+      --spacing-lg: 40px;
+    }
+
+    body {
+      margin: 0;
+      padding: 20px;
+      background-color: #f4f1ea;
+      font-family: 'Noto Sans TC', sans-serif;
+      color: #333;
+      line-height: 1.8;
+    }
+
+    .info-box-container {
+      max-width: 950px;
+      margin: 0 auto;
+      background: var(--soft-white);
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 15px 45px rgba(0,0,0,0.08);
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+    }
+
+    /* 圖片組：非對稱疊放感 */
+    .image-gallery {
+      padding: 30px;
+      background-color: #f9f7f2;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      position: relative;
+    }
+
+    .main-env-img {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .detail-images {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 15px;
+      margin-top: 10px;
+    }
+
+    .detail-img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 6px;
+      border: 4px solid #fff;
+      transform: rotate(-1deg);
+      transition: transform 0.3s ease;
+    }
+
+    .detail-img:last-child {
+      transform: rotate(2deg);
+    }
+
+    /* 文字內容區 */
+    .text-content {
+      padding: 60px 45px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    h1 {
+      font-family: 'Noto Serif TC', serif;
+      font-size: 2.2rem;
+      color: var(--pine-green);
+      margin-bottom: 5px;
+      letter-spacing: 2px;
+    }
+
+    .subtitle {
+      color: var(--wood-brown);
+      font-weight: 500;
+      font-size: 0.9rem;
+      margin-bottom: 25px;
+      text-transform: uppercase;
+    }
+
+    .divider {
+      width: 50px;
+      height: 2px;
+      background: var(--accent-gold);
+      margin-bottom: 30px;
+    }
+
+    .description {
+      font-size: 1.05rem;
+      text-align: justify;
+    }
+
+    .tag-group {
+      margin-top: 30px;
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .tag {
+      padding: 4px 12px;
+      border: 1px solid var(--wood-brown);
+      color: var(--wood-brown);
+      font-size: 0.85rem;
+      border-radius: 20px;
+    }
+
+    @media (max-width: 850px) {
+      .info-box-container { grid-template-columns: 1fr; }
+      .text-content { padding: 40px 30px; }
+      .detail-images { grid-template-columns: 1fr 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="info-box-container">
+  <div class="image-gallery">
+    <img src="IMG_1542.DNG" class="main-env-img" alt="慢慢生活館空間一隅">
+    
+    <div class="detail-images">
+      <img src="IMG_1537.DNG" class="detail-img" alt="工藝細節一">
+      <img src="IMG_1539.DNG" class="detail-img" alt="工藝細節二">
+    </div>
+  </div>
+
+  <div class="text-content">
+    <h1>慢慢生活館</h1>
+    <div class="subtitle">Slow Living Pavilion</div>
+    <div class="divider"></div>
+    
+    <div class="description">
+      慢慢生活館，是一座專為花蓮在地藝術家打造的創作與銷售平台。
+      我們致力於扶持在地工藝師、設計師及文創從業者的跨界整合。
+      在這裡，您可以看見從編織、手工、木工到金工等多元領域的藝術結晶，
+      每一件作品都承載著花蓮土地的溫度與職人的堅持。
+    </div>
+
+    <div class="tag-group">
+      <span class="tag">#在地工藝</span>
+      <span class="tag">#設計整合</span>
+      <span class="tag">#花蓮文創</span>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

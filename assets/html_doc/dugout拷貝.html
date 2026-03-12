@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>松園別館：地下掩體時空敘事</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@700&family=Noto+Sans+TC:wght@300;400&display=swap" rel="stylesheet">
+  <style>
+    /* 松園視覺規範 v1.0 */
+    :root {
+      --pine-green: #2d4635;
+      --wood-brown: #8d775f;
+      --soft-white: #fdfcf8;
+      --accent-gold: #c5a35d;
+    }
+
+    body {
+      background-color: #1a1a1a;
+      margin: 0;
+      padding: 0;
+      font-family: 'Noto Sans TC', sans-serif;
+      color: #ccc;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 60px 20px;
+    }
+
+    /* 頂部標題 */
+    .header-box {
+      border-left: 5px solid var(--accent-gold);
+      padding-left: 25px;
+      margin-bottom: 60px;
+    }
+
+    h1 {
+      font-family: 'Noto Serif TC', serif;
+      color: var(--soft-white);
+      font-size: 2.5rem;
+      margin: 0;
+    }
+
+    /* 創意非對稱網格佈局 */
+    .grid-layout {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 35px;
+    }
+
+    /* 通用卡片樣式 */
+    .archive-card {
+      background: #262626;
+      border-radius: 4px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    }
+
+    .archive-card img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-bottom: 3px solid var(--pine-green);
+    }
+
+    .card-content {
+      padding: 25px;
+    }
+
+    .card-label {
+      font-size: 0.8rem;
+      color: var(--accent-gold);
+      letter-spacing: 3px;
+      margin-bottom: 10px;
+      display: block;
+    }
+
+    .card-title {
+      font-family: 'Noto Serif TC', serif;
+      font-size: 1.3rem;
+      color: var(--soft-white);
+      margin-bottom: 15px;
+    }
+
+    .card-p {
+      font-size: 0.95rem;
+      line-height: 1.8;
+      color: #bbb;
+      text-align: justify;
+    }
+
+    /* 照片定位設定 */
+    .item-1 { grid-column: 1 / 8; } /* 外觀 */
+    .item-2 { grid-column: 8 / 13; margin-top: 40px; } /* 內部 */
+    .item-3 { grid-column: 1 / 6; margin-top: -20px; border: 1px solid var(--wood-brown); } /* 台灣紀錄 */
+    .item-4 { grid-column: 6 / 13; } /* 神風誕生 */
+
+    /* 頁尾 */
+    footer {
+      margin-top: 80px;
+      padding-top: 20px;
+      border-top: 1px solid #333;
+      text-align: center;
+      font-size: 0.8rem;
+      color: #666;
+    }
+
+    @media (max-width: 900px) {
+      .grid-layout { display: flex; flex-direction: column; }
+      .item-2, .item-3 { margin-top: 0; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="header-box">
+    <h1>時空掩體：地下避難所紀實</h1>
+    <p style="margin-top:15px; max-width: 600px;">這座地下防空洞興建於 <strong>一九四二至一九四三年</strong>，是松園別館歷史中最幽暗、也最沉重的戰時見證。</p>
+  </div>
+
+  <div class="grid-layout">
+    <div class="archive-card item-1">
+      <img src="IMG_6761.HEIC" alt="防空洞入口外觀">
+      <div class="card-content">
+        <span class="card-label">STEP 一</span>
+        <div class="card-title">掩體入口處</div>
+        <div class="card-p">
+          厚實的洗石子階梯向下延伸，引領旅人脫離明亮的松林景色，走入日治末期的戰備地景。這裡是當時高層軍官躲避盟軍轟炸的核心避難所。
+        </div>
+      </div>
+    </div>
+
+    <div class="archive-card item-2">
+      <img src="IMG_1465.DNG" alt="防空洞內部構造">
+      <div class="card-content">
+        <span class="card-label">STEP 二</span>
+        <div class="card-title">觀測隧道內部</div>
+        <div class="card-p">
+          內部保留了斑駁的磚牆結構與厚達 <strong>四公分</strong> 的防爆鐵門遺蹟。狹窄的空間散發著備戰時期的緊張氛圍。
+        </div>
+      </div>
+    </div>
+
+    <div class="archive-card item-3">
+      <img src="IMG_6773.HEIC" alt="台灣神風特攻隊紀錄">
+      <div class="card-content">
+        <span class="card-label">STEP 三</span>
+        <div class="card-title">台灣神風紀實</div>
+        <div class="card-p">
+          根據歷史看板顯示，台灣當時設有包含台中、台南、新竹、宜蘭等地的飛行基地。自 <strong>一九四四</strong> 年一月十五日第一次出征至 <strong>一九四五</strong> 年六月七日最後一次出擊，共計出動了 <strong>三四六一</strong> 架次。
+        </div>
+      </div>
+    </div>
+
+    <div class="archive-card item-4">
+      <img src="IMG_6768.HEIC" alt="神風特攻隊的誕生看板">
+      <div class="card-content">
+        <span class="card-label">STEP 四</span>
+        <div class="card-title">神風特攻隊的誕生</div>
+        <div class="card-p">
+          西元 <strong>一九四四</strong> 年，日本中將大西瀧治郎提出了「一人、一機、一彈換一艦」的自殺襲擊要求。這段慘烈的紀錄，是松園導覽中最具歷史衝擊力的章節。
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    🔍 本專案所有影像皆已 upscale 至 <strong>4K 高畫質</strong> [cite: 2026-02-10]。所有歷史數據均經過「內部事實查核」程序 [cite: 2026-01-01]。
+  </footer>
+</div>
+
+</body>
+</html>

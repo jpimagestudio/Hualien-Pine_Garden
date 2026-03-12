@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>松園咖啡：歷史與味蕾的交織</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500;700&family=Noto+Sans+TC:wght@300;400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --pine-green: #2d4635;
+      --wood-brown: #8d775f;
+      --soft-white: #fdfcf8;
+      --accent-gold: #c5a35d;
+    }
+
+    body {
+      background-color: #f4f1ea;
+      margin: 0;
+      padding: 40px 20px;
+      font-family: 'Noto Sans TC', sans-serif;
+      color: #333;
+    }
+
+    .card-container {
+      max-width: 950px;
+      margin: 0 auto;
+      background: var(--soft-white);
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+    }
+
+    /* 左側圖集區域 */
+    .image-section {
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      background-color: #f9f7f2;
+    }
+
+    .main-img {
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+      transform: rotate(-2deg);
+      box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+      transition: 0.3s;
+    }
+
+    .sub-img {
+      width: 90%;
+      align-self: flex-end;
+      border-radius: 12px;
+      transform: rotate(2deg);
+      box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+      border: 8px solid #fff;
+      transition: 0.3s;
+    }
+
+    .main-img:hover, .sub-img:hover { transform: rotate(0deg) scale(1.02); }
+
+    /* 右側文字區域 */
+    .text-section {
+      padding: 50px 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    h1 {
+      font-family: 'Noto Serif TC', serif;
+      font-size: 2.5rem;
+      color: var(--pine-green);
+      margin: 0 0 10px 0;
+      position: relative;
+    }
+
+    .subtitle {
+      font-size: 0.9rem;
+      letter-spacing: 4px;
+      color: var(--wood-brown);
+      text-transform: uppercase;
+      margin-bottom: 30px;
+    }
+
+    .divider {
+      width: 40px;
+      height: 3px;
+      background: var(--accent-gold);
+      margin-bottom: 30px;
+    }
+
+    .original-text {
+      line-height: 2;
+      font-size: 1.05rem;
+      text-align: justify;
+    }
+
+    .highlight-box {
+      margin-top: 30px;
+      padding: 20px;
+      border-left: 4px solid var(--pine-green);
+      background: #f0f4f1;
+      font-size: 0.95rem;
+    }
+
+    .benefit-tag {
+      display: inline-block;
+      padding: 4px 12px;
+      background: var(--pine-green);
+      color: #fff;
+      border-radius: 50px;
+      font-size: 0.8rem;
+      margin-right: 8px;
+    }
+
+    @media (max-width: 850px) {
+      .card-container { grid-template-columns: 1fr; }
+      .image-section { order: 2; }
+      .text-section { order: 1; padding: 40px 30px; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="card-container">
+  <div class="image-section">
+    <img src="IMG_6824.HEIC" class="main-img" alt="松針飲食菜單">
+    <img src="IMG_6825.HEIC" class="sub-img" alt="松針汁實拍">
+  </div>
+
+  <div class="text-section">
+    <h1>松園咖啡</h1>
+    <div class="subtitle">Pine Garden Coffee</div>
+    <div class="divider"></div>
+    
+    <div class="original-text">
+      <strong>松園咖啡</strong> 原為一棟通道式的建築，過去曾是日軍雜役兵宿舍。<br><br>
+      現今轉型為<strong>松園香草餐坊</strong>，將歷史遺蹟與現代感官結合，以各類香草入餐及飲料，並推出獨具特色的新鮮松針汁、松針咖啡。
+      這份體驗讓旅人除了以視覺欣賞松園的百年美景外，也能透過味蕾深度享受這份獨有的愜意時光。
+    </div>
+
+    <div class="highlight-box">
+      <span class="benefit-tag">森林維他命</span>
+      <span class="benefit-tag">五葉松限定</span>
+      <p style="margin-top:10px;">
+        <strong>「松針就是松樹的葉子！」</strong><br>
+        這裡特別挑選園區內優質的五葉松針，富含豐富維生素及礦物質。經由繁複的手工工序製成飲品，口感清新爽口。在松濤聲中啜飲一杯，彷彿將整座松林也一併品嚐了進去。
+      </p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

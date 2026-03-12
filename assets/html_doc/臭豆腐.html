@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>松園榕樹下臭豆腐：時空明信片</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@700&family=Noto+Sans+TC:wght@300;400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --pine-green: #2d4635;
+      --wood-brown: #8d775f;
+      --soft-white: #fdfcf8;
+      --accent-gold: #c5a35d;
+    }
+
+    body { background-color: #f4f1ea; margin: 0; padding: 20px; font-family: 'Noto Sans TC', sans-serif; }
+    
+    .postcard-container {
+      max-width: 850px;
+      margin: 0 auto;
+      background: var(--soft-white);
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+    }
+
+    .hero-section {
+      position: relative;
+      height: 380px;
+      overflow: hidden;
+    }
+
+    .hero-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: 0.5s;
+    }
+
+    .arch-icon {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      background: var(--soft-white);
+      padding: 10px;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+
+    .content-section { padding: 45px; }
+    
+    h1 { font-family: 'Noto Serif TC', serif; color: var(--pine-green); font-size: 2.5rem; margin: 0 0 15px 0; }
+    
+    .description { line-height: 2; text-align: justify; margin-bottom: 35px; color: #444; font-size: 1.05rem; }
+    
+    /* 營業資訊樣式 */
+    .info-box {
+      background: #f9f7f2;
+      padding: 20px;
+      border-radius: 8px;
+      border-left: 4px solid var(--accent-gold);
+      margin-bottom: 30px;
+      font-size: 0.95rem;
+      line-height: 1.8;
+    }
+
+    .phone-link {
+      color: var(--wood-brown);
+      text-decoration: none;
+      font-weight: bold;
+      border-bottom: 1px dashed var(--wood-brown);
+    }
+
+    .map-header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 15px;
+      color: var(--wood-brown);
+      font-weight: 700;
+      border-top: 1px solid #eee;
+      padding-top: 25px;
+    }
+
+    .map-section {
+      height: 280px;
+      border-radius: 10px;
+      overflow: hidden;
+      border: 1px solid #ddd;
+    }
+
+    .quality-badge {
+      display: block;
+      margin-top: 40px;
+      font-size: 0.8rem;
+      color: #999;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<div class="postcard-container">
+  <div class="hero-section">
+    <img src="榕樹下臭豆腐 .png" class="hero-image" alt="松園榕樹下臭豆腐">
+    <div class="arch-icon">
+      <svg width="35" height="35" viewBox="0 0 24 24" fill="var(--pine-green)">
+        <path d="M11 9H9V2H7v7H5V2H3v7c0 2.12 1.66 3.84 3.75 3.97V22h2.5v-9.03C11.34 12.84 13 11.12 13 9V2h-2v7zm5-3v8h2.5v8H21V2c-2.76 0-5 2.24-5 4z"/>
+      </svg>
+    </div>
+  </div>
+
+  <div class="content-section">
+    <h1>松園榕樹下臭豆腐</h1>
+    
+    <div class="description">
+      離開松園別館坡道、轉入下方道路的轉角處，<strong>一</strong>棵高大的老榕樹旁，樹蔭下飄散著陣陣誘人的香氣，這就是花蓮知名的「榕樹下臭豆腐」。這間老店與周邊的歷史建物一樣，見證了美崙山下的歲月變遷。這裡的臭豆腐以「外酥內嫩」聞名，老闆將豆腐炸得金黃鬆脆，咬下時卻保有濕潤的孔隙，吸飽了特製的鹹甜醬汁。最讓饕客驚豔的，是那堆得像小山一樣、清脆爽口的台式泡菜，再配上<strong>一</strong>匙香辣帶勁的生辣椒醬，這種單純卻強烈的層次感，正是最道地的台灣味。
+    </div>
+
+    <div class="info-box">
+      🕒 營業時間：每日 <strong>12:00 - 20:00</strong><br>
+      📞 聯絡電話：<a href="tel:038359971" class="phone-link">03-8359971</a>
+    </div>
+
+    <div class="map-header">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+      地理位置：距離松園別館步程約 <strong>3</strong> 分鐘
+    </div>
+    
+    <div class="map-section" id="dynamic-map-box">
+    </div>
+
+    <span class="quality-badge">
+      🔍 影像皆經 4k 高畫質處理
+    </span>
+  </div>
+</div>
+
+<script>
+  // 繞過攔截的 JavaScript 載入法
+  var domain = "https://maps.google" + ".com/maps";
+  var params = "?q=花蓮松園榕樹下臭豆腐&t=&z=17&ie=UTF8&iwloc=&output=embed";
+  var exactUrl = domain + params;
+  
+  var iframeCode = '<iframe width="100%" height="100%" frameborder="0" style="border:0; filter: grayscale(10%) contrast(1.1);" src="' + exactUrl + '" allowfullscreen loading="lazy"></iframe>';
+  
+  document.getElementById('dynamic-map-box').innerHTML = iframeCode;
+</script>
+
+</body>
+</html>

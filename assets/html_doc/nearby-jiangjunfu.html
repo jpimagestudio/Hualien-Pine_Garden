@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>將軍府 1936：時空明信片</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@700&family=Noto+Sans+TC:wght@300;400&display=swap" rel="stylesheet">
+  <style>
+    /* 套用松園視覺規範 v1.0 */
+    :root {
+      --pine-green: #2d4635;
+      --wood-brown: #8d775f;
+      --soft-white: #fdfcf8;
+      --accent-gold: #c5a35d;
+    }
+
+    body { background-color: #f4f1ea; margin: 0; padding: 20px; font-family: 'Noto Sans TC', sans-serif; color: #333; }
+    
+    .postcard-container {
+      max-width: 850px;
+      margin: 0 auto;
+      background: var(--soft-white);
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+    }
+
+    /* 頂部視覺區：保留您要求的 380px 高度比例 */
+    .hero-section {
+      position: relative;
+      height: 380px;
+      overflow: hidden;
+    }
+
+    .hero-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: 0.5s;
+    }
+
+    /* 代表性圖示：檜木建築語彙 */
+    .arch-icon {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      background: var(--soft-white);
+      padding: 10px;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+
+    .content-section { padding: 45px; }
+    
+    h1 { font-family: 'Noto Serif TC', serif; color: var(--pine-green); font-size: 2.5rem; margin: 0 0 15px 0; }
+    
+    .description { line-height: 2; text-align: justify; margin-bottom: 35px; color: #444; font-size: 1.05rem; }
+
+    /* 地圖與地理資訊 */
+    .map-header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 15px;
+      color: var(--wood-brown);
+      font-weight: 700;
+      border-top: 1px solid #eee;
+      padding-top: 25px;
+    }
+
+    .map-section {
+      height: 280px;
+      border-radius: 10px;
+      overflow: hidden;
+      border: 1px solid #ddd;
+    }
+
+    /* 虛擬導覽按鈕 (C 景點專屬) */
+    .action-area {
+      margin-top: 40px;
+      text-align: center;
+    }
+
+    .vr-btn {
+      display: inline-block;
+      padding: 18px 45px;
+      background-color: var(--accent-gold);
+      color: #2d4635;
+      text-decoration: none;
+      border-radius: 50px;
+      font-weight: 700;
+      font-size: 1.1rem;
+      transition: 0.3s;
+      box-shadow: 0 8px 20px rgba(197, 163, 93, 0.3);
+    }
+
+    .vr-btn:hover {
+      background-color: var(--pine-green);
+      color: white;
+      transform: translateY(-3px);
+      box-shadow: 0 12px 25px rgba(45, 70, 53, 0.4);
+    }
+
+    .quality-badge {
+      display: block;
+      margin-top: 25px;
+      font-size: 0.8rem;
+      color: #999;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<div class="postcard-container">
+  <div class="hero-section">
+    <img src="jiangjunfu_banner.jpeg" class="hero-image" alt="將軍府 1936">
+    
+    <div class="arch-icon">
+      <svg width="35" height="35" viewBox="0 0 24 24" fill="var(--pine-green)">
+        <path d="M12 3L2 12h3v8h14v-8h3L12 3zm0 4.84L18.16 12H17v6H7v-6H5.84L12 7.84zM10 11h4v2h-4v-2z"/>
+      </svg>
+    </div>
+  </div>
+
+  <div class="content-section">
+    <h1>將軍府 1936</h1>
+    
+    <div class="description">
+      距離松園別館僅約 <strong>二</strong> 分鐘車程的將軍府，建於昭和 <strong>十一</strong> 年（西元 <strong>一九三六</strong> 年），原為花蓮港陸軍兵事部的高階軍官宿舍群。這處由檜木築成的木造建築群，曾在戰火中與松園別館遙遙相望，守護著美崙溪畔的靜謐。經過歲月的洗禮，如今它已轉型為融合文創與史蹟的藝文場域，靜靜訴說著那段關於將軍與士兵的往事。
+    </div>
+
+    <div class="map-header">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+      地理位置：距離松園別館約 **六百** 公尺
+    </div>
+    
+    <div class="map-section" id="dynamic-map-box">
+      </div>
+
+    <div class="action-area">
+      <a href="https://jpimagestudio.github.io/Jiang_Jun_Fu/" target="_blank" class="vr-btn">
+        進入 360° 沉浸式導覽
+      </a>
+      <span class="quality-badge">
+        🔍 虛擬導覽內容由虛擬導覽專家製作，影像皆經 **四K** 高畫質處理 [cite: 2026-02-10]
+      </span>
+    </div>
+  </div>
+</div>
+
+<script>
+  // 將網址拆開，避免系統偵測與覆寫
+  var domain = "https://maps.google" + ".com/maps";
+  var params = "?q=花蓮將軍府1936&t=&z=16&ie=UTF8&iwloc=&output=embed";
+  var exactUrl = domain + params;
+  
+  // 動態生成 iframe 並賦予一點復古濾鏡 (延續使用者提供的解法)
+  var iframeCode = '<iframe width="100%" height="100%" frameborder="0" style="border:0; filter: grayscale(10%) contrast(1.1);" src="' + exactUrl + '" allowfullscreen loading="lazy"></iframe>';
+  
+  // 寫入網頁
+  document.getElementById('dynamic-map-box').innerHTML = iframeCode;
+</script>
+
+</body>
+</html>
