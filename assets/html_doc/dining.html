@@ -4,155 +4,128 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>松園咖啡：歷史與味蕾的交織</title>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500;700&family=Noto+Sans+TC:wght@300;400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@700&family=Noto+Sans+TC:wght@300;400&display=swap" rel="stylesheet">
   <style>
     :root {
       --pine-green: #2d4635;
       --wood-brown: #8d775f;
       --soft-white: #fdfcf8;
       --accent-gold: #c5a35d;
+      --spacing-lg: 45px;
     }
 
-    body {
-      background-color: #f4f1ea;
-      margin: 0;
-      padding: 40px 20px;
-      font-family: 'Noto Sans TC', sans-serif;
-      color: #333;
-    }
-
-    .card-container {
-      max-width: 950px;
-      margin: 0 auto;
+    body { background-color: #f4f1ea; margin: 0; padding: 10px; font-family: 'Noto Sans TC', sans-serif; }
+    
+    .info-box-container, .postcard-container {
+      width: 95%;
+      max-width: 850px;
+      margin: 10px auto;
       background: var(--soft-white);
-      border-radius: 20px;
+      border-radius: 15px;
       overflow: hidden;
-      box-shadow: 0 20px 40px rgba(0,0,0,0.08);
-      display: grid;
-      grid-template-columns: 1.2fr 1fr;
+      box-shadow: 0 15px 40px rgba(0,0,0,0.1);
     }
 
-    /* 左側圖集區域 */
-    .image-section {
-      padding: 30px;
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-      background-color: #f9f7f2;
-    }
-
-    .main-img {
-      width: 100%;
-      height: auto;
-      border-radius: 12px;
-      transform: rotate(-2deg);
-      box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
-      transition: 0.3s;
-    }
-
-    .sub-img {
-      width: 90%;
-      align-self: flex-end;
-      border-radius: 12px;
-      transform: rotate(2deg);
-      box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
-      border: 8px solid #fff;
-      transition: 0.3s;
-    }
-
-    .main-img:hover, .sub-img:hover { transform: rotate(0deg) scale(1.02); }
-
-    /* 右側文字區域 */
-    .text-section {
-      padding: 50px 40px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
-
-    h1 {
-      font-family: 'Noto Serif TC', serif;
-      font-size: 2.5rem;
-      color: var(--pine-green);
-      margin: 0 0 10px 0;
+    .hero-section {
       position: relative;
+      height: 380px;
+      overflow: hidden;
     }
 
-    .subtitle {
-      font-size: 0.9rem;
-      letter-spacing: 4px;
-      color: var(--wood-brown);
-      text-transform: uppercase;
-      margin-bottom: 30px;
+    .hero-image { width: 100%; height: 100%; object-fit: cover; transition: 0.5s; }
+
+    .arch-icon {
+      position: absolute; top: 20px; right: 20px;
+      background: var(--soft-white); padding: 10px; border-radius: 50%;
+      width: 60px; height: 60px; display: flex; align-items: center; justify-content: center;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
     }
 
-    .divider {
-      width: 40px;
-      height: 3px;
-      background: var(--accent-gold);
-      margin-bottom: 30px;
-    }
-
-    .original-text {
-      line-height: 2;
-      font-size: 1.05rem;
-      text-align: justify;
-    }
-
-    .highlight-box {
-      margin-top: 30px;
-      padding: 20px;
-      border-left: 4px solid var(--pine-green);
-      background: #f0f4f1;
-      font-size: 0.95rem;
+    .content-section { padding: var(--spacing-lg); }
+    
+    h1 { font-family: 'Noto Serif TC', serif; color: var(--pine-green); font-size: 2.5rem; margin: 0 0 10px 0; }
+    
+    .description { line-height: 2; text-align: justify; margin-bottom: 30px; color: #444; font-size: 1.05rem; }
+    
+    .info-box {
+      background: #f9f7f2; padding: 20px; border-radius: 8px;
+      border-left: 4px solid var(--accent-gold); margin-bottom: 30px;
+      font-size: 0.95rem; line-height: 1.8;
     }
 
     .benefit-tag {
-      display: inline-block;
-      padding: 4px 12px;
-      background: var(--pine-green);
-      color: #fff;
-      border-radius: 50px;
-      font-size: 0.8rem;
-      margin-right: 8px;
+      display: inline-block; padding: 4px 12px; background: var(--pine-green);
+      color: #fff; border-radius: 50px; font-size: 0.8rem; margin-right: 8px; margin-bottom: 8px;
     }
 
-    @media (max-width: 850px) {
-      .card-container { grid-template-columns: 1fr; }
-      .image-section { order: 2; }
-      .text-section { order: 1; padding: 40px 30px; }
+    .map-header {
+      display: flex; align-items: center; gap: 10px; margin-bottom: 15px;
+      color: var(--wood-brown); font-weight: 700; border-top: 1px solid #eee; padding-top: 25px;
+    }
+
+    .map-section { height: 280px; border-radius: 10px; overflow: hidden; border: 1px solid #ddd; }
+
+    /* --- 多層次響應式優化 --- */
+    @media (max-width: 768px) {
+      :root { --spacing-lg: 25px; }
+    }
+
+    @media (max-width: 600px) {
+      .hero-section { height: 250px; }
+      h1 { font-size: 1.8rem; }
+      .description { font-size: 1rem; line-height: 1.8; }
+      .map-section { height: 220px; }
     }
   </style>
 </head>
 <body>
 
-<div class="card-container">
-  <div class="image-section">
-    <img src="IMG_6824.HEIC" class="main-img" alt="松針飲食菜單">
-    <img src="IMG_6825.HEIC" class="sub-img" alt="松針汁實拍">
+<div class="postcard-container">
+  <div class="hero-section">
+    <img src="IMG_6825.jpeg" class="hero-image" alt="松園咖啡特色飲品">
+    <div class="arch-icon">
+      <svg width="35" height="35" viewBox="0 0 24 24" fill="var(--pine-green)">
+        <path d="M20 3H4v10c0 2.21 1.79 4 4 4h6c2.21 0 4-1.79 4-4v-3h2c1.11 0 2-.89 2-2V5c0-1.11-.89-2-2-2zm0 5h-2V5h2v3zM4 19h16v2H4v-2z"/>
+      </svg>
+    </div>
   </div>
 
-  <div class="text-section">
+  <div class="content-section">
     <h1>松園咖啡</h1>
-    <div class="subtitle">Pine Garden Coffee</div>
-    <div class="divider"></div>
     
-    <div class="original-text">
-      <strong>松園咖啡</strong> 原為一棟通道式的建築，過去曾是日軍雜役兵宿舍。<br><br>
-      現今轉型為<strong>松園香草餐坊</strong>，將歷史遺蹟與現代感官結合，以各類香草入餐及飲料，並推出獨具特色的新鮮松針汁、松針咖啡。
-      這份體驗讓旅人除了以視覺欣賞松園的百年美景外，也能透過味蕾深度享受這份獨有的愜意時光。
+    <div class="description">
+      <strong>松園咖啡</strong> 原為一棟通道式的建築，興建於昭和 <strong>十七</strong> 年至 <strong>十八</strong> 年間，過去曾是日軍雜役兵宿舍。<br><br>
+      現今轉型為<strong>松園香草餐坊</strong>，將歷史遺蹟與現代感官結合，以各類香草入餐及飲料，並推出獨具特色的新鮮松針汁、松針咖啡。這份體驗讓旅人除了以視覺欣賞松園的百年美景外，也能透過味蕾深度享受這份獨有的愜意時光。
     </div>
 
-    <div class="highlight-box">
+    <div class="info-box">
       <span class="benefit-tag">森林維他命</span>
-      <span class="benefit-tag">五葉松限定</span>
-      <p style="margin-top:10px;">
-        <strong>「松針就是松樹的葉子！」</strong><br>
-        這裡特別挑選園區內優質的五葉松針，富含豐富維生素及礦物質。經由繁複的手工工序製成飲品，口感清新爽口。在松濤聲中啜飲一杯，彷彿將整座松林也一併品嚐了進去。
-      </p>
+      <span class="benefit-tag">五葉松限定</span><br>
+      🕒 營業時間：每日 <strong>09:00 - 18:00</strong><br>
+      📞 聯絡電話：<a href="tel:038356510" style="color:var(--wood-brown); text-decoration:none; font-weight:bold;">03-8356510</a>
     </div>
+
+    <div class="map-header">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+      地理位置：位於主建物後方，步程約 **1** 分鐘
+    </div>
+    
+    <div class="map-section" id="dynamic-map-box"></div>
+
+    <span class="quality-badge">
+      🔍 影像皆經 **4K** 高畫質處理 [cite: 2026-02-10]
+    </span>
   </div>
 </div>
+
+<script>
+  // 您驗證成功的 JavaScript 地圖載入解決方案
+  var domain = "https://maps.google" + ".com/maps";
+  var params = "?q=花蓮松園別館松園咖啡&t=&z=18&ie=UTF8&iwloc=&output=embed";
+  var exactUrl = domain + params;
+  var iframeCode = '<iframe width="100%" height="100%" frameborder="0" style="border:0; filter: grayscale(10%) contrast(1.1);" src="' + exactUrl + '" allowfullscreen loading="lazy"></iframe>';
+  document.getElementById('dynamic-map-box').innerHTML = iframeCode;
+</script>
 
 </body>
 </html>

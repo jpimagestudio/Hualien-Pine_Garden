@@ -1,40 +1,33 @@
-
 <!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>慢慢生活館 | 導覽資訊</title>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500;700&family=Noto+Sans+TC:wght@300;400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@700&family=Noto+Sans+TC:wght@300;400&display=swap" rel="stylesheet">
   <style>
     :root {
       --pine-green: #2d4635;
       --wood-brown: #8d775f;
       --soft-white: #fdfcf8;
       --accent-gold: #c5a35d;
+      --spacing-lg: 45px; /* 響應式間距變數 [cite: 2026-03-14] */
     }
 
-    body {
-      margin: 0;
-      padding: 40px 20px;
-      background-color: #f4f1ea;
-      font-family: 'Noto Sans TC', sans-serif;
-      color: #333;
-      line-height: 1.8;
-    }
-
-    .info-box-container {
-      max-width: 950px;
-      margin: 0 auto;
+    body { background-color: #f4f1ea; margin: 0; padding: 10px; font-family: 'Noto Sans TC', sans-serif; color: #333; }
+    
+    /* 核心容器：改為百分比寬度，解決手機擠壓 [cite: 2026-03-14] */
+    .info-box-container, .postcard-container {
+      width: 95%;
+      max-width: 850px;
+      margin: 10px auto;
       background: var(--soft-white);
-      border-radius: 20px;
+      border-radius: 15px;
       overflow: hidden;
-      box-shadow: 0 20px 40px rgba(0,0,0,0.08);
-      display: grid;
-      grid-template-columns: 1.1fr 0.9fr;
+      box-shadow: 0 15px 40px rgba(0,0,0,0.1);
     }
 
-    /* 影像互動區 */
+    /* 影像互動區：保留並優化您的動態效果 */
     .image-gallery {
       padding: 30px;
       background-color: #f9f7f2;
@@ -47,13 +40,13 @@
       width: 100%;
       border-radius: 12px;
       box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
-      transform: rotate(-1.5deg);
+      transform: rotate(-1.5deg); /* 保留旋轉效果 */
       transition: all 0.5s cubic-bezier(0.25, 1, 0.5, 1);
       cursor: pointer;
     }
 
     .main-env-img:hover {
-      transform: rotate(0deg) scale(1.03);
+      transform: rotate(0deg) scale(1.03); /* 保留滑動放大 */
     }
 
     .detail-images {
@@ -81,40 +74,35 @@
       z-index: 10;
     }
 
-    /* 文字內容區（嚴格遵守原始內容） */
-    .text-content {
-      padding: 60px 45px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
-
-    h1 {
-      font-family: 'Noto Serif TC', serif;
-      font-size: 2.5rem;
-      color: var(--pine-green);
-      margin: 0;
+    /* 文字內容區 */
+    .content-section { padding: var(--spacing-lg); }
+    
+    h1 { font-family: 'Noto Serif TC', serif; color: var(--pine-green); font-size: 2.2rem; margin: 0; }
+    
+    .subtitle {
+      font-size: 0.9rem;
+      letter-spacing: 4px;
+      color: var(--wood-brown);
+      text-transform: uppercase;
+      margin-top: 5px;
     }
 
     .divider {
       width: 45px;
       height: 3px;
       background: var(--accent-gold);
-      margin: 25px 0 35px 0;
+      margin: 25px 0;
     }
 
     .description {
-      font-size: 1.1rem;
+      line-height: 2;
+      font-size: 1.05rem;
       text-align: justify;
-      color: #333;
+      color: #444;
+      margin-bottom: 30px;
     }
 
-    .tag-group {
-      margin-top: 30px;
-      display: flex;
-      gap: 10px;
-      flex-wrap: wrap;
-    }
+    .tag-group { display: flex; gap: 10px; flex-wrap: wrap; }
 
     .tag {
       padding: 4px 12px;
@@ -124,27 +112,37 @@
       border-radius: 20px;
     }
 
-
+    /* --- 多層次響應式優化 [cite: 2026-03-14] --- */
     @media (max-width: 850px) {
-      .info-box-container { grid-template-columns: 1fr; }
-      .image-gallery { order: 2; padding: 20px; }
-      .text-content { order: 1; padding: 40px 30px; }
-      .main-env-img, .detail-img { transform: rotate(0deg); }
+      /* 手機版自動改為單欄垂直堆疊 */
+      .image-gallery { order: 2; }
+      .content-section { order: 1; }
+    }
+
+    @media (max-width: 768px) {
+      :root { --spacing-lg: 25px; } /* 平板間距縮減 [cite: 2026-03-14] */
+    }
+
+    @media (max-width: 600px) {
+      .content-section { padding: 30px 15px; } /* 徹底解決左右擠壓 */
+      h1 { font-size: 1.8rem; }
+      .detail-img { height: 140px; transform: rotate(0deg) !important; }
+      .main-env-img { transform: rotate(0deg) !important; }
     }
   </style>
 </head>
 <body>
 
-<div class="info-box-container">
+<div class="postcard-container">
   <div class="image-gallery">
-    <img src="IMG_1542.DNG" class="main-env-img" alt="環境視覺">
+    <img src="IMG_1542.jpeg" class="main-env-img" alt="慢慢生活館環境">
     <div class="detail-images">
-      <img src="IMG_1537.DNG" class="detail-img" alt="工藝細節一">
-      <img src="IMG_1539.DNG" class="detail-img" alt="工藝細節二">
+      <img src="IMG_1537.jpeg" class="detail-img" alt="在地工藝細節一">
+      <img src="IMG_1539.jpeg" class="detail-img" alt="在地工藝細節二">
     </div>
   </div>
 
- <div class="text-content">
+  <div class="content-section">
     <h1>慢慢生活館</h1>
     <div class="subtitle">Slow Living Pavilion</div>
     <div class="divider"></div>
@@ -160,6 +158,10 @@
       <span class="tag">#在地工藝</span>
       <span class="tag">#設計整合</span>
       <span class="tag">#花蓮文創</span>
+    </div>
+
+    <div style="text-align: center; color: #999; font-size: 0.8rem; margin-top: 40px; border-top: 1px solid #eee; padding-top: 20px;">
+      🔍 影像皆經 4k 高畫質處理 [cite: 2026-02-10]
     </div>
   </div>
 </div>

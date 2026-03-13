@@ -1,350 +1,350 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour start="node1" appversion="7.1.11" hassounds="0" apprev="21010">
-  <panorama id="node1" hideabout="1">
-    <input height="3143" levelbias="0.400" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510" overlap="1" levelingroll="0" width="3143">
-      <level height="3143" predecode="0" preload="0" width="3143"/>
-      <level height="1571" predecode="0" preload="0" width="1571"/>
-      <level height="785" predecode="0" preload="0" width="785"/>
-      <level height="392" predecode="1" preload="1" width="392"/>
+<tour apprev="21010" hassounds="0" appversion="7.1.11" start="node1">
+  <panorama hideabout="1" id="node1">
+    <input levelingroll="0" overlap="1" leveltilesize="510" levelbiashidpi="1.000" height="3143" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3143" levelingpitch="0" levelbias="0.400">
+      <level height="3143" width="3143" predecode="0" preload="0"/>
+      <level height="1571" width="1571" predecode="0" preload="0"/>
+      <level height="785" width="785" predecode="0" preload="0"/>
+      <level height="392" width="392" predecode="1" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="-2.03029">
-      <start fov="68.6452" projection="4" pan="63.7624" tilt="4.43907"/>
-      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
-      <min fovpixel="0.5" pan="0" tilt="-90"/>
-      <max fov="120" scaletofit="1" fovfisheye="360" pan="360" tilt="90" fovstereographic="330"/>
+    <view pannorth="-2.03029" fovmode="2">
+      <start tilt="4.43907" projection="4" pan="63.7624" fov="68.6452"/>
+      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
+      <min tilt="-90" fovpixel="0.5" pan="0"/>
+      <max scaletofit="1" tilt="90" pan="360" fovstereographic="330" fovfisheye="360" fov="120"/>
     </view>
-    <userdata source="Canon R6 + EF 8–15mm" customnodeid="" nodeid="node1" description="松園別館位於花蓮市美崙山，是花蓮縣保存最完整的日治時期軍事建築。該建築以其成林的琉球松與居高臨下的地理位置聞名，曾被列為花蓮八景之一。&#xa;此兵部負責徵兵、軍事行政及對美崙溪口、南機場與花蓮港的嚴密監控。&#xa;&#xa;傳聞神風特攻隊員在出征前夕，會在此領受天皇賞賜的「御前酒」，與太平洋做最後的告別。&#xa;戰後曾作為美軍顧問團招待所，現轉型為匯聚當代文學靈魂的「太平洋詩歌節」基地。&#xa;&#xa;園區建築展現了日治時期「折衷主義」與「日式實用美學」的交織。圓拱廊道 (Arcade) 設計具備極佳的通風與戰略視野，是俯瞰海平線的最佳位置。&#xa;附屬小木屋原為軍官食堂，純木構造與落地窗光影，營造出優雅的藝文沙龍氛圍。&#xa;&#xa;園區保留半地下化防空洞與舊式水塔，完整呈現二戰末期的戰備地景。&#xa;&#xa;「松濤」是這裡最動人的環境資產，園內擁有數十棵由日人栽植的百年琉球松，其蒼勁姿態構成了天然的遮蔽與獨特的聽覺饗宴（松濤聲）。&#xa;&#xa;全區採高架木棧道設計，落實「人不踩土」政策，守護珍貴的老松根系。牆面爬滿小葉蔓藤，結合後院生態池，調節出舒爽的微氣候。&#xa;&#xa;" tags="canonR6|panorama|PTGuioutput" author="James LeeJP爵攝數位影像 | JP Image Studio" heading="-2.03029" longitude="121.61585480" info="" comment="" datetime="2026/2/24 12:33" latitude="23.98242964" copyright="jp-image.space" title="環區木棧板走道"/>
-    <hotspots height="20" smoothmovement="0" wordwrap="1" width="180">
-      <label height="20" backgroundcolor="0xffffff" enabled="1" textcolor="0x000000" textalpha="1" wordwrap="1" borderalpha="1" background="1" borderradius="1" width="180" border="1" backgroundalpha="1" bordercolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" mode="0" handcursor="1" borderalpha="1" backgroundalpha="0.25098" bordercolor="0x0000ff"/>
-      <hotspot url="{node2}" id="Point01" description="" tilt="-2.09" skinid="ht_node" distance="20.3647" pan="-242.09" target="$fwd" title="環區木棧板走道 "/>
-      <hotspot url="{node13}" id="Point02" description="" tilt="-1.58" skinid="ht_node" distance="28.519" pan="-344" target="$fwd" title="防空壕"/>
-      <hotspot url="" id="Point03" description="透過牌子上面的QR Code，可以聆聽詩人陳黎老師的語音導讀。" skinid="ht_info" pan="-296.04" tilt="-6.9" target="" title="線上語音導讀"/>
+    <userdata author="James LeeJP爵攝數位影像 | JP Image Studio" longitude="121.61585480" title="環區木棧板走道" copyright="jp-image.space" tags="canonR6|panorama|PTGuioutput" heading="-2.03029" source="Canon R6 + EF 8–15mm" info="" description="松園別館位於花蓮市美崙山，是花蓮縣保存最完整的日治時期軍事建築。該建築以其成林的琉球松與居高臨下的地理位置聞名，曾被列為花蓮八景之一。&#xa;此兵部負責徵兵、軍事行政及對美崙溪口、南機場與花蓮港的嚴密監控。&#xa;&#xa;傳聞神風特攻隊員在出征前夕，會在此領受天皇賞賜的「御前酒」，與太平洋做最後的告別。&#xa;戰後曾作為美軍顧問團招待所，現轉型為匯聚當代文學靈魂的「太平洋詩歌節」基地。&#xa;&#xa;園區建築展現了日治時期「折衷主義」與「日式實用美學」的交織。圓拱廊道 (Arcade) 設計具備極佳的通風與戰略視野，是俯瞰海平線的最佳位置。&#xa;附屬小木屋原為軍官食堂，純木構造與落地窗光影，營造出優雅的藝文沙龍氛圍。&#xa;&#xa;園區保留半地下化防空洞與舊式水塔，完整呈現二戰末期的戰備地景。&#xa;&#xa;「松濤」是這裡最動人的環境資產，園內擁有數十棵由日人栽植的百年琉球松，其蒼勁姿態構成了天然的遮蔽與獨特的聽覺饗宴（松濤聲）。&#xa;&#xa;全區採高架木棧道設計，落實「人不踩土」政策，守護珍貴的老松根系。牆面爬滿小葉蔓藤，結合後院生態池，調節出舒爽的微氣候。&#xa;&#xa;" datetime="2026/2/24 12:33" nodeid="node1" latitude="23.98242964" customnodeid="" comment=""/>
+    <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
+      <label textalpha="1" bordercolor="0x000000" textcolor="0x000000" border="1" wordwrap="1" enabled="1" height="20" borderradius="1" background="1" borderalpha="1" width="180" backgroundcolor="0xffffff" backgroundalpha="1"/>
+      <polystyle borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot title="環區木棧板走道 " id="Point01" target="$fwd" skinid="ht_node" tilt="-2.09" description="" distance="20.3647" pan="-242.09" url="{node2}"/>
+      <hotspot title="防空壕" id="Point02" target="$fwd" skinid="ht_node" tilt="-1.58" description="" distance="28.519" pan="-344" url="{node13}"/>
+      <hotspot skinid="ht_info" tilt="-6.9" title="線上語音導讀" id="Point03" description="透過牌子上面的QR Code，可以聆聽詩人陳黎老師的語音導讀。&#xa;" pan="-296.04" target="" url=""/>
     </hotspots>
     <media/>
-    <transition zoomspeed="2" zoomin="0" enabled="1" zoomout="0" zoomfov="40" zoomoutpause="1" blendtime="1" zoomafterinfov="140" zoomafteroutfov="40" blendcolor="0x000000" softedge="0" type="crossdissolve" delay="none"/>
-    <animation syncanimationwithvideo="0" clipsrandom="0" animsequence="Animation01" useinautorotation="0"/>
-    <control speedwheel="1" dblclickfullscreen="0" sensitivity="1" lockedkeyboard="0" invertcontrol="1" contextvr="0" contextfullscreen="0" invertwheel="0" contextprojections="0" rubberband="0" zoomcentercursor="0" lockedmouse="0" lockedkeyboardzoom="0" lockedwheel="0" hideabout="1" simulatemass="1">
-      <menulink url="oring-brother.com" text="爵攝數位影像工作室"/>
+    <transition zoomin="0" softedge="0" blendcolor="0x000000" zoomafterinfov="140" zoomfov="40" enabled="1" type="crossdissolve" blendtime="1" zoomafteroutfov="40" delay="none" zoomspeed="2" zoomoutpause="1" zoomout="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0"/>
+    <control lockedmouse="0" hideabout="1" lockedkeyboard="0" lockedkeyboardzoom="0" contextfullscreen="0" rubberband="0" speedwheel="1" contextprojections="0" zoomcentercursor="0" sensitivity="1" contextvr="0" invertwheel="0" invertcontrol="1" lockedwheel="0" dblclickfullscreen="0" simulatemass="1">
+      <menulink text="爵攝數位影像工作室" url="oring-brother.com"/>
     </control>
   </panorama>
-  <panorama id="node2" hideabout="1">
-    <input height="3147" levelbias="0.400" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510" overlap="1" levelingroll="0" width="3147">
-      <level height="3147" predecode="0" preload="0" width="3147"/>
-      <level height="1573" predecode="0" preload="0" width="1573"/>
-      <level height="786" predecode="0" preload="0" width="786"/>
-      <level height="393" predecode="1" preload="1" width="393"/>
+  <panorama hideabout="1" id="node2">
+    <input levelingroll="0" overlap="1" leveltilesize="510" levelbiashidpi="1.000" height="3147" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3147" levelingpitch="0" levelbias="0.400">
+      <level height="3147" width="3147" predecode="0" preload="0"/>
+      <level height="1573" width="1573" predecode="0" preload="0"/>
+      <level height="786" width="786" predecode="0" preload="0"/>
+      <level height="393" width="393" predecode="1" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="-16.4262">
-      <start fov="115" projection="4" pan="0" tilt="0"/>
-      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
-      <min fovpixel="0.5" pan="0" tilt="-90"/>
-      <max fov="120" scaletofit="1" fovfisheye="360" pan="360" tilt="90" fovstereographic="330"/>
+    <view pannorth="-16.4262" fovmode="2">
+      <start tilt="0" projection="4" pan="0" fov="115"/>
+      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
+      <min tilt="-90" fovpixel="0.5" pan="0"/>
+      <max scaletofit="1" tilt="90" pan="360" fovstereographic="330" fovfisheye="360" fov="120"/>
     </view>
-    <userdata source="Canon R6 + EF 8–15mm" customnodeid="" nodeid="node2" description="遠眺美崙溪出海口與花蓮港的好地方。眼前紅色鋼構橋建於日治時代（1923年），舊稱為「朝日橋」，橫跨美崙溪，鄰近出海口及北濱公園，因其獨特的紅色鋼構線條，是攝影愛好者捕捉美崙溪日出、夜景的熱點，橋下河岸設有步行與自行車道。&#xa;" tags="canonR6|panorama|PTGuioutput" author="James LeeJP爵攝數位影像 | JP Image Studio" heading="-16.4262" longitude="121.61567241" info="" comment="" datetime="2026/2/24 12:35" latitude="23.98235367" copyright="jp-image.space" title="環區木棧板走道 "/>
-    <hotspots height="20" smoothmovement="0" wordwrap="1" width="180">
-      <label height="20" backgroundcolor="0xffffff" enabled="1" textcolor="0x000000" textalpha="1" wordwrap="1" borderalpha="1" background="1" borderradius="1" width="180" border="1" backgroundalpha="1" bordercolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" mode="0" handcursor="1" borderalpha="1" backgroundalpha="0.25098" bordercolor="0x0000ff"/>
-      <hotspot url="{node1}" id="Point01" description="" tilt="0.8" skinid="ht_node" distance="20.3647" pan="-86.51" target="$fwd" title="環區木棧板走道"/>
-      <hotspot url="{node3}" id="Point02" description="" tilt="-2.4" skinid="ht_node" distance="15.7976" pan="-305.09" target="$fwd" title="環區木棧板走道"/>
-      <hotspot url="" id="Point03" description="歷史的守護者-&#xa;松園別館之所以得名，源於園區內擁有全台灣密集度最高、保存最完整的百年琉球松景觀。這批老松約於 一九四三 年前後栽種，當時日軍為了掩護「花蓮港陸軍兵事部」，刻意利用高大的松樹冠作為天然屏障，以躲避盟軍的空襲偵察。&#xa;&#xa;松濤與海潮的共鳴-&#xa;目前園內仍佇立著約 六十 餘棵老松，臨海而立的蒼勁姿態，與下方的太平洋遙遙相對。每當海風穿梭於松針之間，所產生的**「松濤」**聲與遠方的浪潮聲交織，是松園最動人的感官資產。&#xa;&#xa;人不踩土的溫柔保育-&#xa;為了守護這片脆弱且珍貴的綠色史詩，園區嚴格執行**「人不踩土」**政策，透過全區高架木棧道，確保老松淺層的根系能自由呼吸，不受踩踏硬化之苦。這不僅是對自然的尊重，更是讓歷史能持續與大地共生的體現。" skinid="ht_info" pan="-323.22" tilt="-0.78" target="" title="百年琉球松 "/>
+    <userdata author="James LeeJP爵攝數位影像 | JP Image Studio" longitude="121.61567241" title="環區木棧板走道 " copyright="jp-image.space" tags="canonR6|panorama|PTGuioutput" heading="-16.4262" source="Canon R6 + EF 8–15mm" info="" description="遠眺美崙溪出海口與花蓮港的好地方。眼前紅色鋼構橋建於日治時代（1923年），舊稱為「朝日橋」，橫跨美崙溪，鄰近出海口及北濱公園，因其獨特的紅色鋼構線條，是攝影愛好者捕捉美崙溪日出、夜景的熱點，橋下河岸設有步行與自行車道。&#xa;" datetime="2026/2/24 12:35" nodeid="node2" latitude="23.98235367" customnodeid="" comment=""/>
+    <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
+      <label textalpha="1" bordercolor="0x000000" textcolor="0x000000" border="1" wordwrap="1" enabled="1" height="20" borderradius="1" background="1" borderalpha="1" width="180" backgroundcolor="0xffffff" backgroundalpha="1"/>
+      <polystyle borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot title="環區木棧板走道" id="Point01" target="$fwd" skinid="ht_node" tilt="0.8" description="" distance="20.3647" pan="-86.51" url="{node1}"/>
+      <hotspot title="環區木棧板走道" id="Point02" target="$fwd" skinid="ht_node" tilt="-2.4" description="" distance="15.7976" pan="-305.09" url="{node3}"/>
+      <hotspot skinid="ht_info" tilt="-0.78" title="百年琉球松 " id="Point03" description="歷史的守護者-&#xa;松園別館之所以得名，源於園區內擁有全台灣密集度最高、保存最完整的百年琉球松景觀。這批老松約於 一九四三 年前後栽種，當時日軍為了掩護「花蓮港陸軍兵事部」，刻意利用高大的松樹冠作為天然屏障，以躲避盟軍的空襲偵察。&#xa;&#xa;松濤與海潮的共鳴-&#xa;目前園內仍佇立著約 六十 餘棵老松，臨海而立的蒼勁姿態，與下方的太平洋遙遙相對。每當海風穿梭於松針之間，所產生的**「松濤」**聲與遠方的浪潮聲交織，是松園最動人的感官資產。&#xa;&#xa;人不踩土的溫柔保育-&#xa;為了守護這片脆弱且珍貴的綠色史詩，園區嚴格執行**「人不踩土」**政策，透過全區高架木棧道，確保老松淺層的根系能自由呼吸，不受踩踏硬化之苦。這不僅是對自然的尊重，更是讓歷史能持續與大地共生的體現。" pan="-323.22" target="" url=""/>
     </hotspots>
     <media/>
-    <transition zoomspeed="2" zoomin="0" enabled="1" zoomout="0" zoomfov="40" zoomoutpause="1" blendtime="1" zoomafterinfov="140" zoomafteroutfov="40" blendcolor="0x000000" softedge="0" type="crossdissolve" delay="none"/>
-    <animation syncanimationwithvideo="0" clipsrandom="0" animsequence="Animation01" useinautorotation="0"/>
-    <control speedwheel="1" dblclickfullscreen="0" sensitivity="1" lockedkeyboard="0" invertcontrol="1" contextvr="0" contextfullscreen="0" invertwheel="0" contextprojections="0" rubberband="0" zoomcentercursor="0" lockedmouse="0" lockedkeyboardzoom="0" lockedwheel="0" hideabout="1" simulatemass="1">
-      <menulink url="oring-brother.com" text="爵攝數位影像工作室"/>
+    <transition zoomin="0" softedge="0" blendcolor="0x000000" zoomafterinfov="140" zoomfov="40" enabled="1" type="crossdissolve" blendtime="1" zoomafteroutfov="40" delay="none" zoomspeed="2" zoomoutpause="1" zoomout="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0"/>
+    <control lockedmouse="0" hideabout="1" lockedkeyboard="0" lockedkeyboardzoom="0" contextfullscreen="0" rubberband="0" speedwheel="1" contextprojections="0" zoomcentercursor="0" sensitivity="1" contextvr="0" invertwheel="0" invertcontrol="1" lockedwheel="0" dblclickfullscreen="0" simulatemass="1">
+      <menulink text="爵攝數位影像工作室" url="oring-brother.com"/>
     </control>
   </panorama>
-  <panorama id="node3" hideabout="1">
-    <input height="3141" levelbias="0.400" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510" overlap="1" levelingroll="0" width="3141">
-      <level height="3141" predecode="0" preload="0" width="3141"/>
-      <level height="1570" predecode="0" preload="0" width="1570"/>
-      <level height="785" predecode="0" preload="0" width="785"/>
-      <level height="392" predecode="1" preload="1" width="392"/>
+  <panorama hideabout="1" id="node3">
+    <input levelingroll="0" overlap="1" leveltilesize="510" levelbiashidpi="1.000" height="3141" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3141" levelingpitch="0" levelbias="0.400">
+      <level height="3141" width="3141" predecode="0" preload="0"/>
+      <level height="1570" width="1570" predecode="0" preload="0"/>
+      <level height="785" width="785" predecode="0" preload="0"/>
+      <level height="392" width="392" predecode="1" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="9.78692">
-      <start fov="115" projection="4" pan="0" tilt="0"/>
-      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
-      <min fovpixel="0.5" pan="0" tilt="-90"/>
-      <max fov="120" scaletofit="1" fovfisheye="360" pan="360" tilt="90" fovstereographic="330"/>
+    <view pannorth="9.78692" fovmode="2">
+      <start tilt="0" projection="4" pan="0" fov="115"/>
+      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
+      <min tilt="-90" fovpixel="0.5" pan="0"/>
+      <max scaletofit="1" tilt="90" pan="360" fovstereographic="330" fovfisheye="360" fov="120"/>
     </view>
-    <userdata source="Canon R6 + EF 8–15mm" customnodeid="" nodeid="node3" description="主體建築興建於 1942 年，兩層樓的圓拱廊道結合了裝飾藝術與軍事機能。&#xa;&#xa;牆面厚實，展現了當時作為「陸軍兵事部」的威嚴與堅固，其灰色的洗石子外牆，這是日治末期典型的官署建築特徵。&#xa;&#xa;" tags="canonR6|panorama|PTGuioutput" author="James LeeJP爵攝數位影像 | JP Image Studio" heading="9.78692" longitude="121.61552221" info="" comment="" datetime="2026/2/24 12:37" latitude="23.98239043" copyright="jp-image.space" title="環區木棧板走道"/>
-    <hotspots height="20" smoothmovement="0" wordwrap="1" width="180">
-      <label height="20" backgroundcolor="0xffffff" enabled="1" textcolor="0x000000" textalpha="1" wordwrap="1" borderalpha="1" background="1" borderradius="1" width="180" border="1" backgroundalpha="1" bordercolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" mode="0" handcursor="1" borderalpha="1" backgroundalpha="0.25098" bordercolor="0x0000ff"/>
-      <hotspot url="{node2}" id="Point01" description="" tilt="-0.36" skinid="ht_node" distance="15.7976" pan="-107.34" target="$fwd" title="環區木棧板走道 "/>
-      <hotspot url="{node4}" id="Point02" description="" tilt="-0.78" skinid="ht_node" distance="39.3699" pan="-288.78" target="$fwd" title="環區木棧板走道"/>
+    <userdata author="James LeeJP爵攝數位影像 | JP Image Studio" longitude="121.61552221" title="環區木棧板走道" copyright="jp-image.space" tags="canonR6|panorama|PTGuioutput" heading="9.78692" source="Canon R6 + EF 8–15mm" info="" description="主體建築興建於 1942 年，兩層樓的圓拱廊道結合了裝飾藝術與軍事機能。&#xa;&#xa;牆面厚實，展現了當時作為「陸軍兵事部」的威嚴與堅固，其灰色的洗石子外牆，這是日治末期典型的官署建築特徵。&#xa;&#xa;" datetime="2026/2/24 12:37" nodeid="node3" latitude="23.98239043" customnodeid="" comment=""/>
+    <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
+      <label textalpha="1" bordercolor="0x000000" textcolor="0x000000" border="1" wordwrap="1" enabled="1" height="20" borderradius="1" background="1" borderalpha="1" width="180" backgroundcolor="0xffffff" backgroundalpha="1"/>
+      <polystyle borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot title="環區木棧板走道 " id="Point01" target="$fwd" skinid="ht_node" tilt="-0.36" description="" distance="15.7976" pan="-107.34" url="{node2}"/>
+      <hotspot title="環區木棧板走道" id="Point02" target="$fwd" skinid="ht_node" tilt="-0.78" description="" distance="39.3699" pan="-288.78" url="{node4}"/>
     </hotspots>
     <media/>
-    <transition zoomspeed="2" zoomin="0" enabled="1" zoomout="0" zoomfov="40" zoomoutpause="1" blendtime="1" zoomafterinfov="140" zoomafteroutfov="40" blendcolor="0x000000" softedge="0" type="crossdissolve" delay="none"/>
-    <animation syncanimationwithvideo="0" clipsrandom="0" animsequence="Animation01" useinautorotation="0"/>
-    <control speedwheel="1" dblclickfullscreen="0" sensitivity="1" lockedkeyboard="0" invertcontrol="1" contextvr="0" contextfullscreen="0" invertwheel="0" contextprojections="0" rubberband="0" zoomcentercursor="0" lockedmouse="0" lockedkeyboardzoom="0" lockedwheel="0" hideabout="1" simulatemass="1">
-      <menulink url="oring-brother.com" text="爵攝數位影像工作室"/>
+    <transition zoomin="0" softedge="0" blendcolor="0x000000" zoomafterinfov="140" zoomfov="40" enabled="1" type="crossdissolve" blendtime="1" zoomafteroutfov="40" delay="none" zoomspeed="2" zoomoutpause="1" zoomout="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0"/>
+    <control lockedmouse="0" hideabout="1" lockedkeyboard="0" lockedkeyboardzoom="0" contextfullscreen="0" rubberband="0" speedwheel="1" contextprojections="0" zoomcentercursor="0" sensitivity="1" contextvr="0" invertwheel="0" invertcontrol="1" lockedwheel="0" dblclickfullscreen="0" simulatemass="1">
+      <menulink text="爵攝數位影像工作室" url="oring-brother.com"/>
     </control>
   </panorama>
-  <panorama id="node4" hideabout="1">
-    <input height="3136" levelbias="0.400" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510" overlap="1" levelingroll="0" width="3136">
-      <level height="3136" predecode="0" preload="0" width="3136"/>
-      <level height="1568" predecode="0" preload="0" width="1568"/>
-      <level height="784" predecode="0" preload="0" width="784"/>
-      <level height="392" predecode="1" preload="1" width="392"/>
+  <panorama hideabout="1" id="node4">
+    <input levelingroll="0" overlap="1" leveltilesize="510" levelbiashidpi="1.000" height="3136" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3136" levelingpitch="0" levelbias="0.400">
+      <level height="3136" width="3136" predecode="0" preload="0"/>
+      <level height="1568" width="1568" predecode="0" preload="0"/>
+      <level height="784" width="784" predecode="0" preload="0"/>
+      <level height="392" width="392" predecode="1" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="96.5279">
-      <start fov="115" projection="4" pan="0" tilt="0"/>
-      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
-      <min fovpixel="0.5" pan="0" tilt="-90"/>
-      <max fov="120" scaletofit="1" fovfisheye="360" pan="360" tilt="90" fovstereographic="330"/>
+    <view pannorth="96.5279" fovmode="2">
+      <start tilt="0" projection="4" pan="0" fov="115"/>
+      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
+      <min tilt="-90" fovpixel="0.5" pan="0"/>
+      <max scaletofit="1" tilt="90" pan="360" fovstereographic="330" fovfisheye="360" fov="120"/>
     </view>
-    <userdata source="Canon R6 + EF 8–15mm" customnodeid="" nodeid="node4" description="在主體建築後方，有著為了落實平權而增建的透明玻璃電梯。這種「透明化」的現代設計，旨在降低對古蹟主體的視覺壓迫感，讓所有遊客都能輕鬆抵達二樓俯瞰海景。" tags="canonR6|panorama|PTGuioutput" author="James LeeJP爵攝數位影像 | JP Image Studio" heading="96.5279" longitude="121.61517888" info="" comment="" datetime="2026/2/24 12:40" latitude="23.98255462" copyright="jp-image.space" title="環區木棧板走道"/>
-    <hotspots height="20" smoothmovement="0" wordwrap="1" width="180">
-      <label height="20" backgroundcolor="0xffffff" enabled="1" textcolor="0x000000" textalpha="1" wordwrap="1" borderalpha="1" background="1" borderradius="1" width="180" border="1" backgroundalpha="1" bordercolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" mode="0" handcursor="1" borderalpha="1" backgroundalpha="0.25098" bordercolor="0x0000ff"/>
-      <hotspot url="{node4}" id="Point01" description="" skinid="ht_node" pan="-28.56" tilt="0.29" target="$fwd" title="環區木棧板走道"/>
-      <hotspot url="{node5}" id="Point02" description="" tilt="1.31" skinid="ht_node" distance="34.7367" pan="-302.85" target="$fwd" title="水生樂園"/>
+    <userdata author="James LeeJP爵攝數位影像 | JP Image Studio" longitude="121.61517888" title="環區木棧板走道" copyright="jp-image.space" tags="canonR6|panorama|PTGuioutput" heading="96.5279" source="Canon R6 + EF 8–15mm" info="" description="在主體建築後方，有著為了落實平權而增建的透明玻璃電梯。這種「透明化」的現代設計，旨在降低對古蹟主體的視覺壓迫感，讓所有遊客都能輕鬆抵達二樓俯瞰海景。" datetime="2026/2/24 12:40" nodeid="node4" latitude="23.98255462" customnodeid="" comment=""/>
+    <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
+      <label textalpha="1" bordercolor="0x000000" textcolor="0x000000" border="1" wordwrap="1" enabled="1" height="20" borderradius="1" background="1" borderalpha="1" width="180" backgroundcolor="0xffffff" backgroundalpha="1"/>
+      <polystyle borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot skinid="ht_node" tilt="0.29" title="環區木棧板走道" id="Point01" description="" pan="-28.56" target="$fwd" url="{node4}"/>
+      <hotspot title="水生樂園" id="Point02" target="$fwd" skinid="ht_node" tilt="1.31" description="" distance="34.7367" pan="-302.85" url="{node5}"/>
     </hotspots>
     <media/>
-    <transition zoomspeed="2" zoomin="0" enabled="1" zoomout="0" zoomfov="40" zoomoutpause="1" blendtime="1" zoomafterinfov="140" zoomafteroutfov="40" blendcolor="0x000000" softedge="0" type="crossdissolve" delay="none"/>
-    <animation syncanimationwithvideo="0" clipsrandom="0" animsequence="Animation01" useinautorotation="0"/>
-    <control speedwheel="1" dblclickfullscreen="0" sensitivity="1" lockedkeyboard="0" invertcontrol="1" contextvr="0" contextfullscreen="0" invertwheel="0" contextprojections="0" rubberband="0" zoomcentercursor="0" lockedmouse="0" lockedkeyboardzoom="0" lockedwheel="0" hideabout="1" simulatemass="1">
-      <menulink url="oring-brother.com" text="爵攝數位影像工作室"/>
+    <transition zoomin="0" softedge="0" blendcolor="0x000000" zoomafterinfov="140" zoomfov="40" enabled="1" type="crossdissolve" blendtime="1" zoomafteroutfov="40" delay="none" zoomspeed="2" zoomoutpause="1" zoomout="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0"/>
+    <control lockedmouse="0" hideabout="1" lockedkeyboard="0" lockedkeyboardzoom="0" contextfullscreen="0" rubberband="0" speedwheel="1" contextprojections="0" zoomcentercursor="0" sensitivity="1" contextvr="0" invertwheel="0" invertcontrol="1" lockedwheel="0" dblclickfullscreen="0" simulatemass="1">
+      <menulink text="爵攝數位影像工作室" url="oring-brother.com"/>
     </control>
   </panorama>
-  <panorama id="node5" hideabout="1">
-    <input height="3138" levelbias="0.400" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510" overlap="1" levelingroll="0" width="3138">
-      <level height="3138" predecode="0" preload="0" width="3138"/>
-      <level height="1569" predecode="0" preload="0" width="1569"/>
-      <level height="784" predecode="0" preload="0" width="784"/>
-      <level height="392" predecode="1" preload="1" width="392"/>
+  <panorama hideabout="1" id="node5">
+    <input levelingroll="0" overlap="1" leveltilesize="510" levelbiashidpi="1.000" height="3138" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3138" levelingpitch="0" levelbias="0.400">
+      <level height="3138" width="3138" predecode="0" preload="0"/>
+      <level height="1569" width="1569" predecode="0" preload="0"/>
+      <level height="784" width="784" predecode="0" preload="0"/>
+      <level height="392" width="392" predecode="1" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="78.3488">
-      <start fov="115" projection="4" pan="0" tilt="0"/>
-      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
-      <min fovpixel="0.5" pan="0" tilt="-90"/>
-      <max fov="120" scaletofit="1" fovfisheye="360" pan="360" tilt="90" fovstereographic="330"/>
+    <view pannorth="78.3488" fovmode="2">
+      <start tilt="0" projection="4" pan="0" fov="115"/>
+      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
+      <min tilt="-90" fovpixel="0.5" pan="0"/>
+      <max scaletofit="1" tilt="90" pan="360" fovstereographic="330" fovfisheye="360" fov="120"/>
     </view>
-    <userdata source="Canon R6 + EF 8–15mm" customnodeid="" nodeid="node5" description="位於園區後方的生態池，與充滿木造溫度的咖啡館相鄰。池中蓮花與周邊茂密的植被，營造出與前方軍事建築截然不同的柔和氣氛，是每年「太平洋詩歌節」詩人們最喜愛的沉思角落。&#xa;&#xa;在那個備戰的年代，它並不是為了景觀美化而建，而是為了應對火災而設置的「消防蓄水池」。因為周圍全是易燃的松木與木造平房，這口水池就是當時最重要的安全防線。隨著時光流逝，曾經緊張的蓄水池，如今已經轉型成了充滿生命力的生態系。" tags="canonR6|panorama|PTGuioutput" author="James LeeJP爵攝數位影像 | JP Image Studio" heading="78.3488" longitude="121.61533713" info="" comment="" datetime="2026/2/24 12:42" latitude="23.98283154" copyright="jp-image.space" title="水生樂園"/>
-    <hotspots height="20" smoothmovement="0" wordwrap="1" width="180">
-      <label height="20" backgroundcolor="0xffffff" enabled="1" textcolor="0x000000" textalpha="1" wordwrap="1" borderalpha="1" background="1" borderradius="1" width="180" border="1" backgroundalpha="1" bordercolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" mode="0" handcursor="1" borderalpha="1" backgroundalpha="0.25098" bordercolor="0x0000ff"/>
-      <hotspot url="{node4}" id="Point01" description="" tilt="-1.88" skinid="ht_node" distance="34.7367" pan="-133.67" target="$fwd" title="環區木棧板走道"/>
-      <hotspot url="{node6}" id="Point02" description="" tilt="0.91" skinid="ht_node" distance="24.655" pan="-338.7" target="$fwd" title="小木屋"/>
-      <hotspot url="{node7}" id="Point03" description="" tilt="-2.5" skinid="ht_node" distance="30.4625" pan="-22.81" target="$fwd" title="會呼吸的綠色古蹟"/>
-      <hotspot url="" id="Point04" description="點上一杯特製的手沖咖啡，看著陽光穿透松針灑在木質桌面上形成斑駁光影。這份安靜的氛圍，不僅是松園別館特有的慢活步調，更讓遊客在跨越 八十 餘載的建築空間裡，找到一處與歷史、自然和平共處的現代空間。" skinid="ht_info" pan="-54.07" tilt="-0.26" target="" title="松園咖啡"/>
+    <userdata author="James LeeJP爵攝數位影像 | JP Image Studio" longitude="121.61533713" title="水生樂園" copyright="jp-image.space" tags="canonR6|panorama|PTGuioutput" heading="78.3488" source="Canon R6 + EF 8–15mm" info="" description="位於園區後方的生態池，與充滿木造溫度的咖啡館相鄰。池中蓮花與周邊茂密的植被，營造出與前方軍事建築截然不同的柔和氣氛，是每年「太平洋詩歌節」詩人們最喜愛的沉思角落。&#xa;&#xa;在那個備戰的年代，它並不是為了景觀美化而建，而是為了應對火災而設置的「消防蓄水池」。因為周圍全是易燃的松木與木造平房，這口水池就是當時最重要的安全防線。隨著時光流逝，曾經緊張的蓄水池，如今已經轉型成了充滿生命力的生態系。" datetime="2026/2/24 12:42" nodeid="node5" latitude="23.98283154" customnodeid="" comment=""/>
+    <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
+      <label textalpha="1" bordercolor="0x000000" textcolor="0x000000" border="1" wordwrap="1" enabled="1" height="20" borderradius="1" background="1" borderalpha="1" width="180" backgroundcolor="0xffffff" backgroundalpha="1"/>
+      <polystyle borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot title="環區木棧板走道" id="Point01" target="$fwd" skinid="ht_node" tilt="-1.88" description="" distance="34.7367" pan="-133.67" url="{node4}"/>
+      <hotspot title="小木屋" id="Point02" target="$fwd" skinid="ht_node" tilt="0.91" description="" distance="24.655" pan="-338.7" url="{node6}"/>
+      <hotspot title="會呼吸的綠色古蹟" id="Point03" target="$fwd" skinid="ht_node" tilt="-2.5" description="" distance="30.4625" pan="-22.81" url="{node7}"/>
+      <hotspot skinid="ht_info" tilt="-0.26" title="松園咖啡" id="Point04" description="點上一杯特製的手沖咖啡，看著陽光穿透松針灑在木質桌面上形成斑駁光影。這份安靜的氛圍，不僅是松園別館特有的慢活步調，更讓遊客在跨越 八十 餘載的建築空間裡，找到一處與歷史、自然和平共處的現代空間。" pan="-54.07" target="" url=""/>
     </hotspots>
     <media/>
-    <transition zoomspeed="2" zoomin="0" enabled="1" zoomout="0" zoomfov="40" zoomoutpause="1" blendtime="1" zoomafterinfov="140" zoomafteroutfov="40" blendcolor="0x000000" softedge="0" type="crossdissolve" delay="none"/>
-    <animation syncanimationwithvideo="0" clipsrandom="0" animsequence="Animation01" useinautorotation="0"/>
-    <control speedwheel="1" dblclickfullscreen="0" sensitivity="1" lockedkeyboard="0" invertcontrol="1" contextvr="0" contextfullscreen="0" invertwheel="0" contextprojections="0" rubberband="0" zoomcentercursor="0" lockedmouse="0" lockedkeyboardzoom="0" lockedwheel="0" hideabout="1" simulatemass="1">
-      <menulink url="oring-brother.com" text="爵攝數位影像工作室"/>
+    <transition zoomin="0" softedge="0" blendcolor="0x000000" zoomafterinfov="140" zoomfov="40" enabled="1" type="crossdissolve" blendtime="1" zoomafteroutfov="40" delay="none" zoomspeed="2" zoomoutpause="1" zoomout="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0"/>
+    <control lockedmouse="0" hideabout="1" lockedkeyboard="0" lockedkeyboardzoom="0" contextfullscreen="0" rubberband="0" speedwheel="1" contextprojections="0" zoomcentercursor="0" sensitivity="1" contextvr="0" invertwheel="0" invertcontrol="1" lockedwheel="0" dblclickfullscreen="0" simulatemass="1">
+      <menulink text="爵攝數位影像工作室" url="oring-brother.com"/>
     </control>
   </panorama>
-  <panorama id="node6" hideabout="1">
-    <input height="3162" levelbias="0.400" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510" overlap="1" levelingroll="0" width="3162">
-      <level height="3162" predecode="0" preload="0" width="3162"/>
-      <level height="1581" predecode="0" preload="0" width="1581"/>
-      <level height="790" predecode="0" preload="0" width="790"/>
-      <level height="395" predecode="1" preload="1" width="395"/>
+  <panorama hideabout="1" id="node6">
+    <input levelingroll="0" overlap="1" leveltilesize="510" levelbiashidpi="1.000" height="3162" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3162" levelingpitch="0" levelbias="0.400">
+      <level height="3162" width="3162" predecode="0" preload="0"/>
+      <level height="1581" width="1581" predecode="0" preload="0"/>
+      <level height="790" width="790" predecode="0" preload="0"/>
+      <level height="395" width="395" predecode="1" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="-58.9916">
-      <start fov="115" projection="4" pan="0" tilt="0"/>
-      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
-      <min fovpixel="0.5" pan="0" tilt="-90"/>
-      <max fov="120" scaletofit="1" fovfisheye="360" pan="360" tilt="90" fovstereographic="330"/>
+    <view pannorth="-58.9916" fovmode="2">
+      <start tilt="0" projection="4" pan="0" fov="115"/>
+      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
+      <min tilt="-90" fovpixel="0.5" pan="0"/>
+      <max scaletofit="1" tilt="90" pan="360" fovstereographic="330" fovfisheye="360" fov="120"/>
     </view>
-    <userdata source="Canon R6 + EF 8–15mm" customnodeid="" nodeid="node6" description="在日治時期，這棟建築主要是作為「花蓮港兵事部」的高級軍官會議中心（或稱俱樂部）。由於其位置相對隱密且環境優美，也是軍方重要行政官員的臨時住所或社交場所。&#xa;&#xa;如今轉化為充滿書香與墨色的藝文沙龍。透過大面積的橫拉窗，室內的檜木香與室外的松濤聲在此交會，是松園別館內最具人情溫度的角落。" tags="canonR6|panorama|PTGuioutput" author="James LeeJP爵攝數位影像 | JP Image Studio" heading="-58.9916" longitude="121.61556512" info="" comment="" datetime="2026/2/24 12:47" latitude="23.98290751" copyright="jp-image.space" title="小木屋"/>
-    <hotspots height="20" smoothmovement="0" wordwrap="1" width="180">
-      <label height="20" backgroundcolor="0xffffff" enabled="1" textcolor="0x000000" textalpha="1" wordwrap="1" borderalpha="1" background="1" borderradius="1" width="180" border="1" backgroundalpha="1" bordercolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" mode="0" handcursor="1" borderalpha="1" backgroundalpha="0.25098" bordercolor="0x0000ff"/>
-      <hotspot url="{node5}" id="Point01" description="" tilt="-5.02" skinid="ht_node" distance="24.655" pan="-284.79" target="$fwd" title="水生樂園"/>
-      <hotspot url="{node7}" id="Point02" description="" tilt="-3.14" skinid="ht_node" distance="20.2909" pan="-207.05" target="$fwd" title="會呼吸的綠色古蹟"/>
+    <userdata author="James LeeJP爵攝數位影像 | JP Image Studio" longitude="121.61556512" title="小木屋" copyright="jp-image.space" tags="canonR6|panorama|PTGuioutput" heading="-58.9916" source="Canon R6 + EF 8–15mm" info="" description="在日治時期，這棟建築主要是作為「花蓮港兵事部」的高級軍官會議中心（或稱俱樂部）。由於其位置相對隱密且環境優美，也是軍方重要行政官員的臨時住所或社交場所。&#xa;&#xa;如今轉化為充滿書香與墨色的藝文沙龍。透過大面積的橫拉窗，室內的檜木香與室外的松濤聲在此交會，是松園別館內最具人情溫度的角落。" datetime="2026/2/24 12:47" nodeid="node6" latitude="23.98290751" customnodeid="" comment=""/>
+    <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
+      <label textalpha="1" bordercolor="0x000000" textcolor="0x000000" border="1" wordwrap="1" enabled="1" height="20" borderradius="1" background="1" borderalpha="1" width="180" backgroundcolor="0xffffff" backgroundalpha="1"/>
+      <polystyle borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot title="水生樂園" id="Point01" target="$fwd" skinid="ht_node" tilt="-5.02" description="" distance="24.655" pan="-284.79" url="{node5}"/>
+      <hotspot title="會呼吸的綠色古蹟" id="Point02" target="$fwd" skinid="ht_node" tilt="-3.14" description="" distance="20.2909" pan="-207.05" url="{node7}"/>
     </hotspots>
     <media/>
-    <transition zoomspeed="2" zoomin="0" enabled="1" zoomout="0" zoomfov="40" zoomoutpause="1" blendtime="1" zoomafterinfov="140" zoomafteroutfov="40" blendcolor="0x000000" softedge="0" type="crossdissolve" delay="none"/>
-    <animation syncanimationwithvideo="0" clipsrandom="0" animsequence="Animation01" useinautorotation="0"/>
-    <control speedwheel="1" dblclickfullscreen="0" sensitivity="1" lockedkeyboard="0" invertcontrol="1" contextvr="0" contextfullscreen="0" invertwheel="0" contextprojections="0" rubberband="0" zoomcentercursor="0" lockedmouse="0" lockedkeyboardzoom="0" lockedwheel="0" hideabout="1" simulatemass="1">
-      <menulink url="oring-brother.com" text="爵攝數位影像工作室"/>
+    <transition zoomin="0" softedge="0" blendcolor="0x000000" zoomafterinfov="140" zoomfov="40" enabled="1" type="crossdissolve" blendtime="1" zoomafteroutfov="40" delay="none" zoomspeed="2" zoomoutpause="1" zoomout="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0"/>
+    <control lockedmouse="0" hideabout="1" lockedkeyboard="0" lockedkeyboardzoom="0" contextfullscreen="0" rubberband="0" speedwheel="1" contextprojections="0" zoomcentercursor="0" sensitivity="1" contextvr="0" invertwheel="0" invertcontrol="1" lockedwheel="0" dblclickfullscreen="0" simulatemass="1">
+      <menulink text="爵攝數位影像工作室" url="oring-brother.com"/>
     </control>
   </panorama>
-  <panorama id="node7" hideabout="1">
-    <input height="3145" levelbias="0.400" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510" overlap="1" levelingroll="0" width="3145">
-      <level height="3145" predecode="0" preload="0" width="3145"/>
-      <level height="1572" predecode="0" preload="0" width="1572"/>
-      <level height="786" predecode="0" preload="0" width="786"/>
-      <level height="393" predecode="1" preload="1" width="393"/>
+  <panorama hideabout="1" id="node7">
+    <input levelingroll="0" overlap="1" leveltilesize="510" levelbiashidpi="1.000" height="3145" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3145" levelingpitch="0" levelbias="0.400">
+      <level height="3145" width="3145" predecode="0" preload="0"/>
+      <level height="1572" width="1572" predecode="0" preload="0"/>
+      <level height="786" width="786" predecode="0" preload="0"/>
+      <level height="393" width="393" predecode="1" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="-38.4846">
-      <start fov="115" projection="4" pan="0" tilt="0"/>
-      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
-      <min fovpixel="0.5" pan="0" tilt="-90"/>
-      <max fov="120" scaletofit="1" fovfisheye="360" pan="360" tilt="90" fovstereographic="330"/>
+    <view pannorth="-38.4846" fovmode="2">
+      <start tilt="0" projection="4" pan="0" fov="115"/>
+      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
+      <min tilt="-90" fovpixel="0.5" pan="0"/>
+      <max scaletofit="1" tilt="90" pan="360" fovstereographic="330" fovfisheye="360" fov="120"/>
     </view>
-    <userdata source="Canon R6 + EF 8–15mm" customnodeid="" nodeid="node7" description="建築物側邊壯觀的爬藤景觀：&#xa;&#xa;這層厚厚的綠意，其實是建築物的「天然空調」。在花蓮炙熱的午後，這群爬藤像是一張活生生的隔熱網，幫這座老兵事部擋住了直射的艷陽，有效地降低了牆面溫度，讓室內維持著一種靜謐的涼爽。更有趣的是，洗石子牆面那粗糙且充滿孔隙的觸感，剛好提供了爬藤根系最完美的抓附空間；它們順著歲月的痕跡向上攀爬，模糊了冷硬的建築線條，讓原本嚴肅的軍事機關多了一份柔軟與靈氣。" tags="canonR6|panorama|PTGuioutput" author="James LeeJP爵攝數位影像 | JP Image Studio" heading="-38.4846" longitude="121.61561608" info="" comment="" datetime="2026/2/24 12:50" latitude="23.98273107" copyright="jp-image.space" title="會呼吸的綠色古蹟"/>
-    <hotspots height="20" smoothmovement="0" wordwrap="1" width="180">
-      <label height="20" backgroundcolor="0xffffff" enabled="1" textcolor="0x000000" textalpha="1" wordwrap="1" borderalpha="1" background="1" borderradius="1" width="180" border="1" backgroundalpha="1" bordercolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" mode="0" handcursor="1" borderalpha="1" backgroundalpha="0.25098" bordercolor="0x0000ff"/>
-      <hotspot url="{node6}" id="Point01" description="" tilt="2.82" skinid="ht_node" distance="20.2909" pan="-38.58" target="$fwd" title="小木屋"/>
-      <hotspot url="{node13}" id="Point02" description="" tilt="-0.8" skinid="ht_node" distance="13.8439" pan="-192.91" target="$fwd" title="防空壕"/>
+    <userdata author="James LeeJP爵攝數位影像 | JP Image Studio" longitude="121.61561608" title="會呼吸的綠色古蹟" copyright="jp-image.space" tags="canonR6|panorama|PTGuioutput" heading="-38.4846" source="Canon R6 + EF 8–15mm" info="" description="建築物側邊壯觀的爬藤景觀：&#xa;&#xa;這層厚厚的綠意，其實是建築物的「天然空調」。在花蓮炙熱的午後，這群爬藤像是一張活生生的隔熱網，幫這座老兵事部擋住了直射的艷陽，有效地降低了牆面溫度，讓室內維持著一種靜謐的涼爽。更有趣的是，洗石子牆面那粗糙且充滿孔隙的觸感，剛好提供了爬藤根系最完美的抓附空間；它們順著歲月的痕跡向上攀爬，模糊了冷硬的建築線條，讓原本嚴肅的軍事機關多了一份柔軟與靈氣。" datetime="2026/2/24 12:50" nodeid="node7" latitude="23.98273107" customnodeid="" comment=""/>
+    <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
+      <label textalpha="1" bordercolor="0x000000" textcolor="0x000000" border="1" wordwrap="1" enabled="1" height="20" borderradius="1" background="1" borderalpha="1" width="180" backgroundcolor="0xffffff" backgroundalpha="1"/>
+      <polystyle borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot title="小木屋" id="Point01" target="$fwd" skinid="ht_node" tilt="2.82" description="" distance="20.2909" pan="-38.58" url="{node6}"/>
+      <hotspot title="防空壕" id="Point02" target="$fwd" skinid="ht_node" tilt="-0.8" description="" distance="13.8439" pan="-192.91" url="{node13}"/>
     </hotspots>
     <media/>
-    <transition zoomspeed="2" zoomin="0" enabled="1" zoomout="0" zoomfov="40" zoomoutpause="1" blendtime="1" zoomafterinfov="140" zoomafteroutfov="40" blendcolor="0x000000" softedge="0" type="crossdissolve" delay="none"/>
-    <animation syncanimationwithvideo="0" clipsrandom="0" animsequence="Animation01" useinautorotation="0"/>
-    <control speedwheel="1" dblclickfullscreen="0" sensitivity="1" lockedkeyboard="0" invertcontrol="1" contextvr="0" contextfullscreen="0" invertwheel="0" contextprojections="0" rubberband="0" zoomcentercursor="0" lockedmouse="0" lockedkeyboardzoom="0" lockedwheel="0" hideabout="1" simulatemass="1">
-      <menulink url="oring-brother.com" text="爵攝數位影像工作室"/>
+    <transition zoomin="0" softedge="0" blendcolor="0x000000" zoomafterinfov="140" zoomfov="40" enabled="1" type="crossdissolve" blendtime="1" zoomafteroutfov="40" delay="none" zoomspeed="2" zoomoutpause="1" zoomout="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0"/>
+    <control lockedmouse="0" hideabout="1" lockedkeyboard="0" lockedkeyboardzoom="0" contextfullscreen="0" rubberband="0" speedwheel="1" contextprojections="0" zoomcentercursor="0" sensitivity="1" contextvr="0" invertwheel="0" invertcontrol="1" lockedwheel="0" dblclickfullscreen="0" simulatemass="1">
+      <menulink text="爵攝數位影像工作室" url="oring-brother.com"/>
     </control>
   </panorama>
-  <panorama id="node11" hideabout="1">
-    <input height="3127" levelbias="0.400" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510" overlap="1" levelingroll="0" width="3127">
-      <level height="3127" predecode="0" preload="0" width="3127"/>
-      <level height="1563" predecode="0" preload="0" width="1563"/>
-      <level height="781" predecode="0" preload="0" width="781"/>
-      <level height="390" predecode="1" preload="1" width="390"/>
+  <panorama hideabout="1" id="node11">
+    <input levelingroll="0" overlap="1" leveltilesize="510" levelbiashidpi="1.000" height="3127" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3127" levelingpitch="0" levelbias="0.400">
+      <level height="3127" width="3127" predecode="0" preload="0"/>
+      <level height="1563" width="1563" predecode="0" preload="0"/>
+      <level height="781" width="781" predecode="0" preload="0"/>
+      <level height="390" width="390" predecode="1" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="154.023">
-      <start fov="115" projection="4" pan="0" tilt="0"/>
-      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
-      <min fovpixel="0.5" pan="0" tilt="-90"/>
-      <max fov="120" scaletofit="1" fovfisheye="360" pan="360" tilt="90" fovstereographic="330"/>
+    <view pannorth="154.023" fovmode="2">
+      <start tilt="0" projection="4" pan="0" fov="115"/>
+      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
+      <min tilt="-90" fovpixel="0.5" pan="0"/>
+      <max scaletofit="1" tilt="90" pan="360" fovstereographic="330" fovfisheye="360" fov="120"/>
     </view>
-    <userdata source="Canon R6 + EF 8–15mm" customnodeid="" nodeid="node11" description="花蓮美軍顧問團招待所，興建於1942年至1943年（昭和17年至18年），為第二次世界大戰期間大日本帝國陸軍在花蓮的最高軍事指揮中心。&#xa;&#xa;為了因應當時大日本帝國擴張的戰爭動員需要，而出現軍事徵集、招募的機構，其名為「花蓮港廳兵事部」。而此單位在1947年（民國36年）時由中華民國陸軍總部軍隊接管，陳誠的青年軍駐守其中，也曾作為兵工學校的理化實驗室。1950年代成為「美軍顧問團軍官休閒度假中心」。&#xa;&#xa;今日則為松園別館，為花蓮縣歷史建築，位在美崙山的松園別館是花蓮縣僅存日治時期最完整的一棟軍事建築，擁有制高點的地理優勢，視野良好，不但可以監控眼前太平洋海面上的軍艦船隻，也能掌握從前附近南機場飛機的起降，加上滿天茂密的松樹枝葉，讓這棟灰色建築更是顯得隱密。" tags="canonR6|panorama|PTGuioutput" author="James LeeJP爵攝數位影像 | JP Image Studio" heading="154.023" longitude="121.61548465" info="" comment="" datetime="2026/2/24 13:03" latitude="23.98255707" copyright="jp-image.space" title="主體洋樓"/>
-    <hotspots height="20" smoothmovement="0" wordwrap="1" width="180">
-      <label height="20" backgroundcolor="0xffffff" enabled="1" textcolor="0x000000" textalpha="1" wordwrap="1" borderalpha="1" background="1" borderradius="1" width="180" border="1" backgroundalpha="1" bordercolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" mode="0" handcursor="1" borderalpha="1" backgroundalpha="0.25098" bordercolor="0x0000ff"/>
-      <hotspot url="{node9}" id="Point01" description="" tilt="1.26" skinid="ht_node" distance="10.9854" pan="-260.81" target="$fwd" title="二樓展覽館"/>
-      <hotspot url="{node10}" id="Point02" description="" tilt="-0.85" skinid="ht_node" distance="7.08948" pan="-93.47" target="$fwd" title="工藝教室"/>
-      <hotspot url="{node3}" id="Point03" description="" tilt="-11.73" skinid="ht_node" distance="18.9184" pan="-6.49" target="$fwd" title="環區木棧板走道"/>
-      <hotspot url="{node14}" id="Point04" description="" tilt="-1.28" skinid="ht_node" distance="1.92725" pan="-175.99" target="$fwd" title="主體洋樓"/>
+    <userdata author="James LeeJP爵攝數位影像 | JP Image Studio" longitude="121.61548465" title="主體洋樓" copyright="jp-image.space" tags="canonR6|panorama|PTGuioutput" heading="154.023" source="Canon R6 + EF 8–15mm" info="" description="花蓮美軍顧問團招待所，興建於1942年至1943年（昭和17年至18年），為第二次世界大戰期間大日本帝國陸軍在花蓮的最高軍事指揮中心。&#xa;&#xa;為了因應當時大日本帝國擴張的戰爭動員需要，而出現軍事徵集、招募的機構，其名為「花蓮港廳兵事部」。而此單位在1947年（民國36年）時由中華民國陸軍總部軍隊接管，陳誠的青年軍駐守其中，也曾作為兵工學校的理化實驗室。1950年代成為「美軍顧問團軍官休閒度假中心」。&#xa;&#xa;今日則為松園別館，為花蓮縣歷史建築，位在美崙山的松園別館是花蓮縣僅存日治時期最完整的一棟軍事建築，擁有制高點的地理優勢，視野良好，不但可以監控眼前太平洋海面上的軍艦船隻，也能掌握從前附近南機場飛機的起降，加上滿天茂密的松樹枝葉，讓這棟灰色建築更是顯得隱密。" datetime="2026/2/24 13:03" nodeid="node11" latitude="23.98255707" customnodeid="" comment=""/>
+    <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
+      <label textalpha="1" bordercolor="0x000000" textcolor="0x000000" border="1" wordwrap="1" enabled="1" height="20" borderradius="1" background="1" borderalpha="1" width="180" backgroundcolor="0xffffff" backgroundalpha="1"/>
+      <polystyle borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot title="二樓展覽館" id="Point01" target="$fwd" skinid="ht_node" tilt="1.26" description="" distance="10.9854" pan="-260.81" url="{node9}"/>
+      <hotspot title="工藝教室" id="Point02" target="$fwd" skinid="ht_node" tilt="-0.85" description="" distance="7.08948" pan="-93.47" url="{node10}"/>
+      <hotspot title="環區木棧板走道" id="Point03" target="$fwd" skinid="ht_node" tilt="-11.73" description="" distance="18.9184" pan="-6.49" url="{node3}"/>
+      <hotspot title="主體洋樓" id="Point04" target="$fwd" skinid="ht_node" tilt="-1.28" description="" distance="1.92725" pan="-175.99" url="{node14}"/>
     </hotspots>
     <media/>
-    <transition zoomspeed="2" zoomin="0" enabled="1" zoomout="0" zoomfov="40" zoomoutpause="1" blendtime="1" zoomafterinfov="140" zoomafteroutfov="40" blendcolor="0x000000" softedge="0" type="crossdissolve" delay="none"/>
-    <animation syncanimationwithvideo="0" clipsrandom="0" animsequence="Animation01" useinautorotation="0"/>
-    <control speedwheel="1" dblclickfullscreen="0" sensitivity="1" lockedkeyboard="0" invertcontrol="1" contextvr="0" contextfullscreen="0" invertwheel="0" contextprojections="0" rubberband="0" zoomcentercursor="0" lockedmouse="0" lockedkeyboardzoom="0" lockedwheel="0" hideabout="1" simulatemass="1">
-      <menulink url="oring-brother.com" text="爵攝數位影像工作室"/>
+    <transition zoomin="0" softedge="0" blendcolor="0x000000" zoomafterinfov="140" zoomfov="40" enabled="1" type="crossdissolve" blendtime="1" zoomafteroutfov="40" delay="none" zoomspeed="2" zoomoutpause="1" zoomout="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0"/>
+    <control lockedmouse="0" hideabout="1" lockedkeyboard="0" lockedkeyboardzoom="0" contextfullscreen="0" rubberband="0" speedwheel="1" contextprojections="0" zoomcentercursor="0" sensitivity="1" contextvr="0" invertwheel="0" invertcontrol="1" lockedwheel="0" dblclickfullscreen="0" simulatemass="1">
+      <menulink text="爵攝數位影像工作室" url="oring-brother.com"/>
     </control>
   </panorama>
-  <panorama id="node9" hideabout="1">
-    <input height="3137" levelbias="0.400" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510" overlap="1" levelingroll="0" width="3137">
-      <level height="3137" predecode="0" preload="0" width="3137"/>
-      <level height="1568" predecode="0" preload="0" width="1568"/>
-      <level height="784" predecode="0" preload="0" width="784"/>
-      <level height="392" predecode="1" preload="1" width="392"/>
+  <panorama hideabout="1" id="node9">
+    <input levelingroll="0" overlap="1" leveltilesize="510" levelbiashidpi="1.000" height="3137" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3137" levelingpitch="0" levelbias="0.400">
+      <level height="3137" width="3137" predecode="0" preload="0"/>
+      <level height="1568" width="1568" predecode="0" preload="0"/>
+      <level height="784" width="784" predecode="0" preload="0"/>
+      <level height="392" width="392" predecode="1" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="-61.7126">
-      <start fov="115" projection="4" pan="0" tilt="0"/>
-      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
-      <min fovpixel="0.5" pan="0" tilt="-90"/>
-      <max fov="120" scaletofit="1" fovfisheye="360" pan="360" tilt="90" fovstereographic="330"/>
+    <view pannorth="-61.7126" fovmode="2">
+      <start tilt="0" projection="4" pan="0" fov="115"/>
+      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
+      <min tilt="-90" fovpixel="0.5" pan="0"/>
+      <max scaletofit="1" tilt="90" pan="360" fovstereographic="330" fovfisheye="360" fov="120"/>
     </view>
-    <userdata source="Canon R6 + EF 8–15mm" customnodeid="" nodeid="node9" description="二樓空間在戰時作為主管辦公室。&#xa;&#xa;空間現為展覽空間，為採自然光線，墪修過程加裝天窗，採用強化玻璃、不錦鋼和木頭三種材質構成。光線強時，可將天窗的間扇張開，以利遮陽。而鏤空的圖案是取自松樹意象，為二葉松針。" tags="canonR6|panorama|PTGuioutput" author="James LeeJP爵攝數位影像 | JP Image Studio" heading="-61.7126" longitude="121.61556244" info="" comment="" datetime="2026/2/24 12:55" latitude="23.98262569" copyright="jp-image.space" title="二樓展覽館"/>
-    <hotspots height="20" smoothmovement="0" wordwrap="1" width="180">
-      <label height="20" backgroundcolor="0xffffff" enabled="1" textcolor="0x000000" textalpha="1" wordwrap="1" borderalpha="1" background="1" borderradius="1" width="180" border="1" backgroundalpha="1" bordercolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" mode="0" handcursor="1" borderalpha="1" backgroundalpha="0.25098" bordercolor="0x0000ff"/>
-      <hotspot url="{node11}" id="Point01" description="" tilt="0.4" skinid="ht_node" distance="10.9854" pan="-264.62" target="$fwd" title="主體洋樓"/>
+    <userdata author="James LeeJP爵攝數位影像 | JP Image Studio" longitude="121.61556244" title="二樓展覽館" copyright="jp-image.space" tags="canonR6|panorama|PTGuioutput" heading="-61.7126" source="Canon R6 + EF 8–15mm" info="" description="二樓空間在戰時作為主管辦公室。&#xa;&#xa;空間現為展覽空間，為採自然光線，墪修過程加裝天窗，採用強化玻璃、不錦鋼和木頭三種材質構成。光線強時，可將天窗的間扇張開，以利遮陽。而鏤空的圖案是取自松樹意象，為二葉松針。" datetime="2026/2/24 12:55" nodeid="node9" latitude="23.98262569" customnodeid="" comment=""/>
+    <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
+      <label textalpha="1" bordercolor="0x000000" textcolor="0x000000" border="1" wordwrap="1" enabled="1" height="20" borderradius="1" background="1" borderalpha="1" width="180" backgroundcolor="0xffffff" backgroundalpha="1"/>
+      <polystyle borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot title="主體洋樓" id="Point01" target="$fwd" skinid="ht_node" tilt="0.4" description="" distance="10.9854" pan="-264.62" url="{node11}"/>
     </hotspots>
     <media/>
-    <transition zoomspeed="2" zoomin="0" enabled="1" zoomout="0" zoomfov="40" zoomoutpause="1" blendtime="1" zoomafterinfov="140" zoomafteroutfov="40" blendcolor="0x000000" softedge="0" type="crossdissolve" delay="none"/>
-    <animation syncanimationwithvideo="0" clipsrandom="0" animsequence="Animation01" useinautorotation="0"/>
-    <control speedwheel="1" dblclickfullscreen="0" sensitivity="1" lockedkeyboard="0" invertcontrol="1" contextvr="0" contextfullscreen="0" invertwheel="0" contextprojections="0" rubberband="0" zoomcentercursor="0" lockedmouse="0" lockedkeyboardzoom="0" lockedwheel="0" hideabout="1" simulatemass="1">
-      <menulink url="oring-brother.com" text="爵攝數位影像工作室"/>
+    <transition zoomin="0" softedge="0" blendcolor="0x000000" zoomafterinfov="140" zoomfov="40" enabled="1" type="crossdissolve" blendtime="1" zoomafteroutfov="40" delay="none" zoomspeed="2" zoomoutpause="1" zoomout="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0"/>
+    <control lockedmouse="0" hideabout="1" lockedkeyboard="0" lockedkeyboardzoom="0" contextfullscreen="0" rubberband="0" speedwheel="1" contextprojections="0" zoomcentercursor="0" sensitivity="1" contextvr="0" invertwheel="0" invertcontrol="1" lockedwheel="0" dblclickfullscreen="0" simulatemass="1">
+      <menulink text="爵攝數位影像工作室" url="oring-brother.com"/>
     </control>
   </panorama>
-  <panorama id="node10" hideabout="1">
-    <input height="3137" levelbias="0.400" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510" overlap="1" levelingroll="0" width="3137">
-      <level height="3137" predecode="0" preload="0" width="3137"/>
-      <level height="1568" predecode="0" preload="0" width="1568"/>
-      <level height="784" predecode="0" preload="0" width="784"/>
-      <level height="392" predecode="1" preload="1" width="392"/>
+  <panorama hideabout="1" id="node10">
+    <input levelingroll="0" overlap="1" leveltilesize="510" levelbiashidpi="1.000" height="3137" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3137" levelingpitch="0" levelbias="0.400">
+      <level height="3137" width="3137" predecode="0" preload="0"/>
+      <level height="1568" width="1568" predecode="0" preload="0"/>
+      <level height="784" width="784" predecode="0" preload="0"/>
+      <level height="392" width="392" predecode="1" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="-64.6937">
-      <start fov="115" projection="4" pan="0" tilt="0"/>
-      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
-      <min fovpixel="0.5" pan="0" tilt="-90"/>
-      <max fov="120" scaletofit="1" fovfisheye="360" pan="360" tilt="90" fovstereographic="330"/>
+    <view pannorth="-64.6937" fovmode="2">
+      <start tilt="0" projection="4" pan="0" fov="115"/>
+      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
+      <min tilt="-90" fovpixel="0.5" pan="0"/>
+      <max scaletofit="1" tilt="90" pan="360" fovstereographic="330" fovfisheye="360" fov="120"/>
     </view>
-    <userdata source="Canon R6 + EF 8–15mm" customnodeid="" nodeid="node10" description="整修期間將原有的天花板拆除，露出左右對稱的木桁架結構屋頂，讓人可欣賞日式建築的工法。&#xa;而木頭上有編號，考慮未來若遇腐或白蟻蛀蝕，都可依循編號找到合適的木頭重新替換。&#xa;&#xa;" tags="canonR6|panorama|PTGuioutput" author="James LeeJP爵攝數位影像 | JP Image Studio" heading="-64.6937" longitude="121.61541492" info="" comment="" datetime="2026/2/24 12:59" latitude="23.98255952" copyright="jp-image.space" title="工藝教室"/>
-    <hotspots height="20" smoothmovement="0" wordwrap="1" width="180">
-      <label height="20" backgroundcolor="0xffffff" enabled="1" textcolor="0x000000" textalpha="1" wordwrap="1" borderalpha="1" background="1" borderradius="1" width="180" border="1" backgroundalpha="1" bordercolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" mode="0" handcursor="1" borderalpha="1" backgroundalpha="0.25098" bordercolor="0x0000ff"/>
-      <hotspot url="{node11}" id="Point01" description="" tilt="-1.29" skinid="ht_node" distance="7.08948" pan="-235.23" target="$fwd" title="主體洋樓"/>
+    <userdata author="James LeeJP爵攝數位影像 | JP Image Studio" longitude="121.61541492" title="工藝教室" copyright="jp-image.space" tags="canonR6|panorama|PTGuioutput" heading="-64.6937" source="Canon R6 + EF 8–15mm" info="" description="整修期間將原有的天花板拆除，露出左右對稱的木桁架結構屋頂，讓人可欣賞日式建築的工法。&#xa;而木頭上有編號，考慮未來若遇腐或白蟻蛀蝕，都可依循編號找到合適的木頭重新替換。&#xa;&#xa;" datetime="2026/2/24 12:59" nodeid="node10" latitude="23.98255952" customnodeid="" comment=""/>
+    <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
+      <label textalpha="1" bordercolor="0x000000" textcolor="0x000000" border="1" wordwrap="1" enabled="1" height="20" borderradius="1" background="1" borderalpha="1" width="180" backgroundcolor="0xffffff" backgroundalpha="1"/>
+      <polystyle borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot title="主體洋樓" id="Point01" target="$fwd" skinid="ht_node" tilt="-1.29" description="" distance="7.08948" pan="-235.23" url="{node11}"/>
     </hotspots>
     <media/>
-    <transition zoomspeed="2" zoomin="0" enabled="1" zoomout="0" zoomfov="40" zoomoutpause="1" blendtime="1" zoomafterinfov="140" zoomafteroutfov="40" blendcolor="0x000000" softedge="0" type="crossdissolve" delay="none"/>
-    <animation syncanimationwithvideo="0" clipsrandom="0" animsequence="Animation01" useinautorotation="0"/>
-    <control speedwheel="1" dblclickfullscreen="0" sensitivity="1" lockedkeyboard="0" invertcontrol="1" contextvr="0" contextfullscreen="0" invertwheel="0" contextprojections="0" rubberband="0" zoomcentercursor="0" lockedmouse="0" lockedkeyboardzoom="0" lockedwheel="0" hideabout="1" simulatemass="1">
-      <menulink url="oring-brother.com" text="爵攝數位影像工作室"/>
+    <transition zoomin="0" softedge="0" blendcolor="0x000000" zoomafterinfov="140" zoomfov="40" enabled="1" type="crossdissolve" blendtime="1" zoomafteroutfov="40" delay="none" zoomspeed="2" zoomoutpause="1" zoomout="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0"/>
+    <control lockedmouse="0" hideabout="1" lockedkeyboard="0" lockedkeyboardzoom="0" contextfullscreen="0" rubberband="0" speedwheel="1" contextprojections="0" zoomcentercursor="0" sensitivity="1" contextvr="0" invertwheel="0" invertcontrol="1" lockedwheel="0" dblclickfullscreen="0" simulatemass="1">
+      <menulink text="爵攝數位影像工作室" url="oring-brother.com"/>
     </control>
   </panorama>
-  <panorama id="node13" hideabout="1">
-    <input height="3138" levelbias="0.400" leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510" overlap="1" levelingroll="0" width="3138">
-      <level height="3138" predecode="0" preload="0" width="3138"/>
-      <level height="1569" predecode="0" preload="0" width="1569"/>
-      <level height="784" predecode="0" preload="0" width="784"/>
-      <level height="392" predecode="1" preload="1" width="392"/>
+  <panorama hideabout="1" id="node13">
+    <input levelingroll="0" overlap="1" leveltilesize="510" levelbiashidpi="1.000" height="3138" leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3138" levelingpitch="0" levelbias="0.400">
+      <level height="3138" width="3138" predecode="0" preload="0"/>
+      <level height="1569" width="1569" predecode="0" preload="0"/>
+      <level height="784" width="784" predecode="0" preload="0"/>
+      <level height="392" width="392" predecode="1" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="-183.956">
-      <start fov="115" projection="4" pan="0" tilt="0"/>
-      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
-      <min fovpixel="0.5" pan="0" tilt="-90"/>
-      <max fov="120" scaletofit="1" fovfisheye="360" pan="360" tilt="90" fovstereographic="330"/>
+    <view pannorth="-183.956" fovmode="2">
+      <start tilt="0" projection="4" pan="0" fov="115"/>
+      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
+      <min tilt="-90" fovpixel="0.5" pan="0"/>
+      <max scaletofit="1" tilt="90" pan="360" fovstereographic="330" fovfisheye="360" fov="120"/>
     </view>
-    <userdata source="Canon R6 + EF 8–15mm" customnodeid="" nodeid="node13" description="" tags="canonR6|panorama|PTGuioutput" author="James LeeJP爵攝數位影像 | JP Image Studio" heading="-183.956" longitude="121.61572605" info="" comment="" datetime="2026/2/24 13:08" latitude="23.98265755" copyright="jp-image.space" title="防空壕"/>
-    <hotspots height="20" smoothmovement="0" wordwrap="1" width="180">
-      <label height="20" backgroundcolor="0xffffff" enabled="1" textcolor="0x000000" textalpha="1" wordwrap="1" borderalpha="1" background="1" borderradius="1" width="180" border="1" backgroundalpha="1" bordercolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" mode="0" handcursor="1" borderalpha="1" backgroundalpha="0.25098" bordercolor="0x0000ff"/>
-      <hotspot url="{node1}" id="Point01" description="" tilt="0.5" skinid="ht_node" distance="28.519" pan="-343.53" target="$fwd" title="環區木棧板走道"/>
-      <hotspot url="{node7}" id="Point02" description="" tilt="1.87" skinid="ht_node" distance="13.8439" pan="-115.22" target="$fwd" title="會呼吸的綠色古蹟"/>
-      <hotspot url="" id="Point03" description="這扇門厚度約為 4 公分，由鐵板與鐵筋混凝土組成，結構極為厚重。&#xa;&#xa;歷史爭議：雖然位於日治時期建築旁，但研究推測這並非日軍所建，而是國民政府接收後增建的，據傳原為彈藥庫的防護門。&#xa;" skinid="ht_info" pan="-188.15" tilt="3.56" target="" title="防爆門"/>
-      <hotspot url="{node14}" id="Point05" description="" tilt="-3.4" skinid="ht_node" distance="26.3361" pan="-68.26" target="$fwd" title="主體洋樓"/>
-      <hotspot url="" id="Point04" description="體驗" skinid="ht_dugout" pan="-218.93" tilt="1.44" target="" title="防空洞"/>
+    <userdata author="James LeeJP爵攝數位影像 | JP Image Studio" longitude="121.61572605" title="防空壕" copyright="jp-image.space" tags="canonR6|panorama|PTGuioutput" heading="-183.956" source="Canon R6 + EF 8–15mm" info="" description="" datetime="2026/2/24 13:08" nodeid="node13" latitude="23.98265755" customnodeid="" comment=""/>
+    <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
+      <label textalpha="1" bordercolor="0x000000" textcolor="0x000000" border="1" wordwrap="1" enabled="1" height="20" borderradius="1" background="1" borderalpha="1" width="180" backgroundcolor="0xffffff" backgroundalpha="1"/>
+      <polystyle borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot title="環區木棧板走道" id="Point01" target="$fwd" skinid="ht_node" tilt="0.5" description="" distance="28.519" pan="-343.53" url="{node1}"/>
+      <hotspot title="會呼吸的綠色古蹟" id="Point02" target="$fwd" skinid="ht_node" tilt="1.87" description="" distance="13.8439" pan="-115.22" url="{node7}"/>
+      <hotspot skinid="ht_info" tilt="3.56" title="防爆門" id="Point03" description="這扇門厚度約為 4 公分，由鐵板與鐵筋混凝土組成，結構極為厚重。&#xa;&#xa;歷史爭議：雖然位於日治時期建築旁，但研究推測這並非日軍所建，而是國民政府接收後增建的，據傳原為彈藥庫的防護門。&#xa;" pan="-188.15" target="" url=""/>
+      <hotspot title="主體洋樓" id="Point05" target="$fwd" skinid="ht_node" tilt="-3.4" description="" distance="26.3361" pan="-68.26" url="{node14}"/>
+      <hotspot skinid="ht_dugout" tilt="1.44" title="防空洞" id="Point04" description="體驗" pan="-218.93" target="" url=""/>
     </hotspots>
     <media/>
-    <transition zoomspeed="2" zoomin="0" enabled="1" zoomout="0" zoomfov="40" zoomoutpause="1" blendtime="1" zoomafterinfov="140" zoomafteroutfov="40" blendcolor="0x000000" softedge="0" type="crossdissolve" delay="none"/>
-    <animation syncanimationwithvideo="0" clipsrandom="0" animsequence="Animation01" useinautorotation="0"/>
-    <control speedwheel="1" dblclickfullscreen="0" sensitivity="1" lockedkeyboard="0" invertcontrol="1" contextvr="0" contextfullscreen="0" invertwheel="0" contextprojections="0" rubberband="0" zoomcentercursor="0" lockedmouse="0" lockedkeyboardzoom="0" lockedwheel="0" hideabout="1" simulatemass="1">
-      <menulink url="oring-brother.com" text="爵攝數位影像工作室"/>
+    <transition zoomin="0" softedge="0" blendcolor="0x000000" zoomafterinfov="140" zoomfov="40" enabled="1" type="crossdissolve" blendtime="1" zoomafteroutfov="40" delay="none" zoomspeed="2" zoomoutpause="1" zoomout="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0"/>
+    <control lockedmouse="0" hideabout="1" lockedkeyboard="0" lockedkeyboardzoom="0" contextfullscreen="0" rubberband="0" speedwheel="1" contextprojections="0" zoomcentercursor="0" sensitivity="1" contextvr="0" invertwheel="0" invertcontrol="1" lockedwheel="0" dblclickfullscreen="0" simulatemass="1">
+      <menulink text="爵攝數位影像工作室" url="oring-brother.com"/>
     </control>
   </panorama>
-  <panorama id="node14" hideabout="1">
-    <input height="3141" levelbias="0.400" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510" overlap="1" levelingroll="0" width="3141">
-      <level height="3141" predecode="0" preload="0" width="3141"/>
-      <level height="1570" predecode="0" preload="0" width="1570"/>
-      <level height="785" predecode="0" preload="0" width="785"/>
-      <level height="392" predecode="1" preload="1" width="392"/>
+  <panorama hideabout="1" id="node14">
+    <input levelingroll="0" overlap="1" leveltilesize="510" levelbiashidpi="1.000" height="3141" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3141" levelingpitch="0" levelbias="0.400">
+      <level height="3141" width="3141" predecode="0" preload="0"/>
+      <level height="1570" width="1570" predecode="0" preload="0"/>
+      <level height="785" width="785" predecode="0" preload="0"/>
+      <level height="392" width="392" predecode="1" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="106.551">
-      <start fov="115" projection="4" pan="0" tilt="0"/>
-      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
-      <min fovpixel="0.5" pan="0" tilt="-90"/>
-      <max fov="120" scaletofit="1" fovfisheye="360" pan="360" tilt="90" fovstereographic="330"/>
+    <view pannorth="106.551" fovmode="2">
+      <start tilt="0" projection="4" pan="0" fov="115"/>
+      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
+      <min tilt="-90" fovpixel="0.5" pan="0"/>
+      <max scaletofit="1" tilt="90" pan="360" fovstereographic="330" fovfisheye="360" fov="120"/>
     </view>
-    <userdata source="" customnodeid="" nodeid="node14" description="" tags="canonR6|panorama|PTGuioutput" author="James Lee" heading="106.551" longitude="121.61549807" info="" comment="" datetime="2026/2/24 13:06" latitude="23.98254482" copyright="jp-image.space" title="主體洋樓"/>
-    <hotspots height="20" smoothmovement="0" wordwrap="1" width="180">
-      <label height="20" backgroundcolor="0xffffff" enabled="1" textcolor="0x000000" textalpha="1" wordwrap="1" borderalpha="1" background="1" borderradius="1" width="180" border="1" backgroundalpha="1" bordercolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" mode="0" handcursor="1" borderalpha="1" backgroundalpha="0.25098" bordercolor="0x0000ff"/>
-      <hotspot url="{node11}" id="Point01" description="" tilt="9.72" skinid="ht_node" distance="1.92725" pan="-219.21" target="$fwd" title="主體洋樓"/>
-      <hotspot url="{node13}" id="Point02" description="" tilt="1.11" skinid="ht_node" distance="26.3361" pan="-314.88" target="$fwd" title="防空壕"/>
+    <userdata author="James Lee" longitude="121.61549807" title="主體洋樓" copyright="jp-image.space" tags="canonR6|panorama|PTGuioutput" heading="106.551" source="" info="" description="" datetime="2026/2/24 13:06" nodeid="node14" latitude="23.98254482" customnodeid="" comment=""/>
+    <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
+      <label textalpha="1" bordercolor="0x000000" textcolor="0x000000" border="1" wordwrap="1" enabled="1" height="20" borderradius="1" background="1" borderalpha="1" width="180" backgroundcolor="0xffffff" backgroundalpha="1"/>
+      <polystyle borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot title="主體洋樓" id="Point01" target="$fwd" skinid="ht_node" tilt="9.72" description="" distance="1.92725" pan="-219.21" url="{node11}"/>
+      <hotspot title="防空壕" id="Point02" target="$fwd" skinid="ht_node" tilt="1.11" description="" distance="26.3361" pan="-314.88" url="{node13}"/>
     </hotspots>
     <media/>
-    <transition zoomspeed="2" zoomin="0" enabled="1" zoomout="0" zoomfov="40" zoomoutpause="1" blendtime="1" zoomafterinfov="140" zoomafteroutfov="40" blendcolor="0x000000" softedge="0" type="crossdissolve" delay="none"/>
-    <animation syncanimationwithvideo="0" clipsrandom="0" animsequence="Animation01" useinautorotation="0"/>
-    <control speedwheel="1" dblclickfullscreen="0" sensitivity="1" lockedkeyboard="0" invertcontrol="1" contextvr="0" contextfullscreen="0" invertwheel="0" contextprojections="0" rubberband="0" zoomcentercursor="0" lockedmouse="0" lockedkeyboardzoom="0" lockedwheel="0" hideabout="1" simulatemass="1">
-      <menulink url="oring-brother.com" text="爵攝數位影像工作室"/>
+    <transition zoomin="0" softedge="0" blendcolor="0x000000" zoomafterinfov="140" zoomfov="40" enabled="1" type="crossdissolve" blendtime="1" zoomafteroutfov="40" delay="none" zoomspeed="2" zoomoutpause="1" zoomout="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0"/>
+    <control lockedmouse="0" hideabout="1" lockedkeyboard="0" lockedkeyboardzoom="0" contextfullscreen="0" rubberband="0" speedwheel="1" contextprojections="0" zoomcentercursor="0" sensitivity="1" contextvr="0" invertwheel="0" invertcontrol="1" lockedwheel="0" dblclickfullscreen="0" simulatemass="1">
+      <menulink text="爵攝數位影像工作室" url="oring-brother.com"/>
     </control>
   </panorama>
   <masternode>
-    <userdata copyright="© 2025 JP爵攝數位影像 (JP Image Studio). All rights reserved." description="設籍花蓮縣之縣民、未滿 6 歲兒童及持身心障礙證明者可享免門票入園。&#xa;&#xa;松園別館：興建於1942年至1943年（昭和17年至18年），為第二次世界大戰期間大日本帝國陸軍在花蓮的最高軍事指揮中心，其名為「花蓮港廳兵事部」。而此單位在1947年（民國36年）時由中華民國陸軍總部軍隊接管，陳誠的青年軍駐守其中，也曾作為兵工學校的理化實驗室。1950年代成為「美軍顧問團軍官休閒度假中心」。今日則為松園別館，是花蓮縣僅存日治時期最完整的一棟軍事建築，擁有制高點的地理優勢，視野良好，不但可以監控眼前太平洋海面上的軍艦船隻，也能掌握從前附近南機場飛機的起降，加上滿天茂密的松樹枝葉，讓這棟灰色建築更是顯得隱密。" comment="Hualien Pine Garden_20260307" tags="" title="花蓮市景點 | 松園別館" author="JP爵攝數位影像 | JP Image Studio"/>
+    <userdata comment="Hualien Pine Garden_20260307" title="花蓮市景點 | 松園別館" description="設籍花蓮縣之縣民、未滿 6 歲兒童及持身心障礙證明者可享免門票入園。&#xa;&#xa;松園別館：興建於1942年至1943年（昭和17年至18年），為第二次世界大戰期間大日本帝國陸軍在花蓮的最高軍事指揮中心，其名為「花蓮港廳兵事部」。而此單位在1947年（民國36年）時由中華民國陸軍總部軍隊接管，陳誠的青年軍駐守其中，也曾作為兵工學校的理化實驗室。1950年代成為「美軍顧問團軍官休閒度假中心」。今日則為松園別館，是花蓮縣僅存日治時期最完整的一棟軍事建築，擁有制高點的地理優勢，視野良好，不但可以監控眼前太平洋海面上的軍艦船隻，也能掌握從前附近南機場飛機的起降，加上滿天茂密的松樹枝葉，讓這棟灰色建築更是顯得隱密。" copyright="© 2025 JP爵攝數位影像 (JP Image Studio). All rights reserved." tags="" author="JP爵攝數位影像 | JP Image Studio"/>
     <animationsequences>
       <sequence title="Animation01"/>
     </animationsequences>

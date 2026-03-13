@@ -13,11 +13,13 @@
       --accent-gold: #c5a35d;
     }
 
-    body { background-color: #f4f1ea; margin: 0; padding: 20px; font-family: 'Noto Sans TC', sans-serif; }
+    body { background-color: #f4f1ea; margin: 0; padding: 10px; font-family: 'Noto Sans TC', sans-serif; }
     
+    /* 核心容器：改為百分比寬度以適應手機 */
     .postcard-container {
+      width: 95%;
       max-width: 850px;
-      margin: 0 auto;
+      margin: 10px auto;
       background: var(--soft-white);
       border-radius: 15px;
       overflow: hidden;
@@ -26,80 +28,49 @@
 
     .hero-section {
       position: relative;
-      height: 380px;
+      height: 380px; /* 電腦版高度 */
       overflow: hidden;
     }
 
-    .hero-image {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      transition: 0.5s;
-    }
+    .hero-image { width: 100%; height: 100%; object-fit: cover; }
 
     .arch-icon {
-      position: absolute;
-      top: 20px;
-      right: 20px;
-      background: var(--soft-white);
-      padding: 10px;
-      border-radius: 50%;
-      width: 60px;
-      height: 60px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      position: absolute; top: 15px; right: 15px;
+      background: var(--soft-white); padding: 10px; border-radius: 50%;
+      width: 50px; height: 50px; display: flex; align-items: center; justify-content: center;
       box-shadow: 0 5px 15px rgba(0,0,0,0.2);
     }
 
-    .content-section { padding: 45px; }
+    .content-section { padding: 45px; } /* 電腦版內邊距 */
     
-    h1 { font-family: 'Noto Serif TC', serif; color: var(--pine-green); font-size: 2.5rem; margin: 0 0 15px 0; }
+    h1 { font-family: 'Noto Serif TC', serif; color: var(--pine-green); font-size: 2.2rem; margin: 0 0 15px 0; }
     
-    .description { line-height: 2; text-align: justify; margin-bottom: 35px; color: #444; font-size: 1.05rem; }
+    .description { line-height: 1.8; text-align: justify; margin-bottom: 30px; color: #444; font-size: 1.05rem; }
     
-    /* 營業資訊樣式 */
     .info-box {
-      background: #f9f7f2;
-      padding: 20px;
-      border-radius: 8px;
-      border-left: 4px solid var(--accent-gold);
-      margin-bottom: 30px;
-      font-size: 0.95rem;
-      line-height: 1.8;
+      background: #f9f7f2; padding: 15px; border-radius: 8px;
+      border-left: 4px solid var(--accent-gold); margin-bottom: 30px;
+      font-size: 0.95rem; line-height: 1.6;
     }
 
-    .phone-link {
-      color: var(--wood-brown);
-      text-decoration: none;
-      font-weight: bold;
-      border-bottom: 1px dashed var(--wood-brown);
-    }
+    .phone-link { color: var(--wood-brown); text-decoration: none; font-weight: bold; }
 
     .map-header {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      margin-bottom: 15px;
-      color: var(--wood-brown);
-      font-weight: 700;
-      border-top: 1px solid #eee;
-      padding-top: 25px;
+      display: flex; align-items: center; gap: 8px; margin-bottom: 15px;
+      color: var(--wood-brown); font-weight: 700; border-top: 1px solid #eee; padding-top: 20px;
     }
 
-    .map-section {
-      height: 280px;
-      border-radius: 10px;
-      overflow: hidden;
-      border: 1px solid #ddd;
-    }
+    .map-section { height: 280px; border-radius: 10px; overflow: hidden; border: 1px solid #ddd; }
 
-    .quality-badge {
-      display: block;
-      margin-top: 40px;
-      font-size: 0.8rem;
-      color: #999;
-      text-align: center;
+    .quality-badge { display: block; margin-top: 30px; font-size: 0.8rem; color: #999; text-align: center; }
+
+    /* --- 手機版專屬優化方案 --- */
+    @media (max-width: 600px) {
+      .hero-section { height: 220px; } /* 縮減圖片高度 */
+      .content-section { padding: 25px 15px; } /* 縮減邊距，解決左右擠壓 */
+      h1 { font-size: 1.6rem; }
+      .description { font-size: 0.95rem; }
+      .map-section { height: 220px; }
     }
   </style>
 </head>
@@ -107,9 +78,9 @@
 
 <div class="postcard-container">
   <div class="hero-section">
-    <img src="榕樹下臭豆腐 .png" class="hero-image" alt="松園榕樹下臭豆腐">
+    <img src="榕樹下臭豆腐 .jpeg" class="hero-image" alt="松園榕樹下臭豆腐">
     <div class="arch-icon">
-      <svg width="35" height="35" viewBox="0 0 24 24" fill="var(--pine-green)">
+      <svg width="30" height="30" viewBox="0 0 24 24" fill="var(--pine-green)">
         <path d="M11 9H9V2H7v7H5V2H3v7c0 2.12 1.66 3.84 3.75 3.97V22h2.5v-9.03C11.34 12.84 13 11.12 13 9V2h-2v7zm5-3v8h2.5v8H21V2c-2.76 0-5 2.24-5 4z"/>
       </svg>
     </div>
@@ -132,23 +103,19 @@
       地理位置：距離松園別館步程約 <strong>3</strong> 分鐘
     </div>
     
-    <div class="map-section" id="dynamic-map-box">
-    </div>
+    <div class="map-section" id="dynamic-map-box"></div>
 
     <span class="quality-badge">
-      🔍 影像皆經 4k 高畫質處理
+      🔍 影像皆經 4K 高畫質處理
     </span>
   </div>
 </div>
 
 <script>
-  // 繞過攔截的 JavaScript 載入法
   var domain = "https://maps.google" + ".com/maps";
   var params = "?q=花蓮松園榕樹下臭豆腐&t=&z=17&ie=UTF8&iwloc=&output=embed";
   var exactUrl = domain + params;
-  
   var iframeCode = '<iframe width="100%" height="100%" frameborder="0" style="border:0; filter: grayscale(10%) contrast(1.1);" src="' + exactUrl + '" allowfullscreen loading="lazy"></iframe>';
-  
   document.getElementById('dynamic-map-box').innerHTML = iframeCode;
 </script>
 

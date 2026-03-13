@@ -6,30 +6,33 @@
   <title>將軍府 1936：時空明信片</title>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@700&family=Noto+Sans+TC:wght@300;400&display=swap" rel="stylesheet">
   <style>
-    /* 套用松園視覺規範 v1.0 */
+    /* 套用松園視覺規範 v1.1 - 響應式強化版 */
     :root {
       --pine-green: #2d4635;
       --wood-brown: #8d775f;
       --soft-white: #fdfcf8;
       --accent-gold: #c5a35d;
+      --spacing-lg: 45px; /* 預設寬鬆間距 */
     }
 
-    body { background-color: #f4f1ea; margin: 0; padding: 20px; font-family: 'Noto Sans TC', sans-serif; color: #333; }
+    body { background-color: #f4f1ea; margin: 0; padding: 10px; font-family: 'Noto Sans TC', sans-serif; color: #333; }
     
-    .postcard-container {
+    /* 核心容器：寬度百分比化，解決手機擠壓問題 */
+    .info-box-container, .postcard-container {
+      width: 95%;
       max-width: 850px;
-      margin: 0 auto;
+      margin: 10px auto;
       background: var(--soft-white);
       border-radius: 15px;
       overflow: hidden;
       box-shadow: 0 15px 40px rgba(0,0,0,0.1);
     }
 
-    /* 頂部視覺區：保留您要求的 380px 高度比例 */
     .hero-section {
       position: relative;
       height: 380px;
       overflow: hidden;
+      background: #eee;
     }
 
     .hero-image {
@@ -39,7 +42,6 @@
       transition: 0.5s;
     }
 
-    /* 代表性圖示：檜木建築語彙 */
     .arch-icon {
       position: absolute;
       top: 20px;
@@ -55,13 +57,12 @@
       box-shadow: 0 5px 15px rgba(0,0,0,0.2);
     }
 
-    .content-section { padding: 45px; }
+    .content-section { padding: var(--spacing-lg); }
     
-    h1 { font-family: 'Noto Serif TC', serif; color: var(--pine-green); font-size: 2.5rem; margin: 0 0 15px 0; }
+    h1 { font-family: 'Noto Serif TC', serif; color: var(--pine-green); font-size: 2.2rem; margin: 0 0 15px 0; }
     
     .description { line-height: 2; text-align: justify; margin-bottom: 35px; color: #444; font-size: 1.05rem; }
 
-    /* 地圖與地理資訊 */
     .map-header {
       display: flex;
       align-items: center;
@@ -80,7 +81,6 @@
       border: 1px solid #ddd;
     }
 
-    /* 虛擬導覽按鈕 (C 景點專屬) */
     .action-area {
       margin-top: 40px;
       text-align: center;
@@ -113,13 +113,27 @@
       color: #999;
       text-align: center;
     }
+
+    /* --- 多層次響應式優化 --- */
+    @media (max-width: 768px) {
+      :root { --spacing-lg: 25px; } /* 平板間距縮減 */
+    }
+
+    @media (max-width: 600px) {
+      .hero-section { height: 220px; } /* 手機版 Banner 高度縮短 */
+      .content-section { padding: 25px 15px; } /* 徹底解決左右擠壓 */
+      h1 { font-size: 1.7rem; }
+      .description { font-size: 0.95rem; line-height: 1.8; }
+      .map-section { height: 220px; }
+      .vr-btn { width: 80%; padding: 15px 20px; font-size: 1rem; }
+    }
   </style>
 </head>
 <body>
 
 <div class="postcard-container">
   <div class="hero-section">
-    <img src="jiangjunfu_banner.jpeg" class="hero-image" alt="將軍府 1936">
+    <img src="jiangjunfu_banner.jpeg" class="hero-image" alt="將軍府 一九三六">
     
     <div class="arch-icon">
       <svg width="35" height="35" viewBox="0 0 24 24" fill="var(--pine-green)">
@@ -132,23 +146,22 @@
     <h1>將軍府 1936</h1>
     
     <div class="description">
-      距離松園別館僅約 <strong>二</strong> 分鐘車程的將軍府，建於昭和 <strong>十一</strong> 年（西元 <strong>一九三六</strong> 年），原為花蓮港陸軍兵事部的高階軍官宿舍群。這處由檜木築成的木造建築群，曾在戰火中與松園別館遙遙相望，守護著美崙溪畔的靜謐。經過歲月的洗禮，如今它已轉型為融合文創與史蹟的藝文場域，靜靜訴說著那段關於將軍與士兵的往事。
+      距離松園別館僅約 <strong>2</strong> 分鐘車程的將軍府，建於昭和 <strong>11</strong> 年（西元 <strong>1936</strong> 年），原為花蓮港陸軍兵事部的高階軍官宿舍群。這處由檜木築成的木造建築群，曾在戰火中與松園別館遙遙相望，守護著美崙溪畔的靜謐。經過歲月的洗禮，如今它已轉型為融合文創與史蹟的藝文場域，靜靜訴說著那段關於將軍與士兵的往事。
     </div>
 
     <div class="map-header">
       <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
-      地理位置：距離松園別館約 **六百** 公尺
+      地理位置：距離松園別館約 <strong>600</strong> 公尺
     </div>
     
-    <div class="map-section" id="dynamic-map-box">
-      </div>
+    <div class="map-section" id="dynamic-map-box"></div>
 
     <div class="action-area">
       <a href="https://jpimagestudio.github.io/Jiang_Jun_Fu/" target="_blank" class="vr-btn">
-        進入 360° 沉浸式導覽
+        進入 <strong>360</strong> 度沉浸式導覽
       </a>
       <span class="quality-badge">
-        🔍 虛擬導覽內容由虛擬導覽專家製作，影像皆經 **四K** 高畫質處理 [cite: 2026-02-10]
+        🔍 虛擬導覽內容由虛擬導覽專家製作，影像皆經 4k 高畫質處理 [cite: 2026-02-10]
       </span>
     </div>
   </div>

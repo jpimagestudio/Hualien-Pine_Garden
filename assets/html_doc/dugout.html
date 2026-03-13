@@ -6,182 +6,155 @@
   <title>松園別館：地下掩體時空敘事</title>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@700&family=Noto+Sans+TC:wght@300;400&display=swap" rel="stylesheet">
   <style>
-    /* 松園視覺規範 v1.0 */
     :root {
       --pine-green: #2d4635;
       --wood-brown: #8d775f;
       --soft-white: #fdfcf8;
       --accent-gold: #c5a35d;
+      --spacing-lg: 45px;
     }
 
     body {
       background-color: #1a1a1a;
       margin: 0;
-      padding: 0;
+      padding: 10px;
       font-family: 'Noto Sans TC', sans-serif;
       color: #ccc;
     }
 
-    .container {
-      max-width: 1100px;
-      margin: 0 auto;
-      padding: 60px 20px;
+    /* 核心容器：抗擠壓響應式設計 */
+    .info-box-container, .postcard-container {
+      width: 95%;
+      max-width: 850px;
+      margin: 10px auto;
+      background: #262626;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 15px 40px rgba(0,0,0,0.4);
     }
 
     .header-box {
       border-left: 5px solid var(--accent-gold);
-      padding-left: 25px;
-      margin-bottom: 60px;
+      padding-left: 20px;
+      margin: 40px 0;
     }
 
     h1 {
       font-family: 'Noto Serif TC', serif;
       color: var(--soft-white);
-      font-size: 2.5rem;
-      margin: 0;
+      font-size: 2.2rem;
+      margin: 0 0 15px 0;
     }
 
-    .grid-layout {
-      display: grid;
-      grid-template-columns: repeat(12, 1fr);
-      gap: 35px;
-    }
-
-    .archive-card {
-      background: #262626;
-      border-radius: 4px;
+    .hero-section {
+      position: relative;
+      width: 100%;
+      height: 380px;
       overflow: hidden;
-      display: flex;
-      flex-direction: column;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-      height: 100%;
-    }
-
-    /* 圖片容器：確保圖片撐滿且不變形 */
-    .img-container {
-      width: 100%;
       background: #111;
-      min-height: 250px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
     }
 
-    .archive-card img {
+    .hero-image {
       width: 100%;
-      height: auto;
-      display: block;
-      border-bottom: 3px solid var(--pine-green);
+      height: 100%;
+      object-fit: cover;
     }
 
-    .card-content {
-      padding: 35px;
-      flex-grow: 1;
+    .content-section { padding: var(--spacing-lg); }
+    
+    .description { line-height: 2; text-align: justify; margin-bottom: 35px; color: #bbb; font-size: 1.05rem; }
+
+    /* 卡片式排版 */
+    .archive-card {
+      margin-bottom: 40px;
+      border-bottom: 1px solid #333;
+      padding-bottom: 40px;
     }
+
+    .archive-card:last-child { border-bottom: none; }
 
     .card-label {
-      font-size: 0.8rem;
-      color: var(--accent-gold);
-      letter-spacing: 3px;
-      margin-bottom: 15px;
-      display: block;
+      font-size: 0.8rem; color: var(--accent-gold);
+      letter-spacing: 3px; margin-bottom: 15px; display: block;
     }
 
     .card-title {
       font-family: 'Noto Serif TC', serif;
-      font-size: 1.5rem;
-      color: var(--soft-white);
-      margin-bottom: 20px;
+      font-size: 1.6rem; color: var(--soft-white); margin-bottom: 20px;
     }
 
-    .card-p {
-      font-size: 1rem;
-      line-height: 2;
-      color: #bbb;
-      text-align: justify;
+    /* 響應式調整：徹底解決手機版左右擠壓 */
+    @media (max-width: 768px) {
+      :root { --spacing-lg: 25px; }
     }
 
-    /* 照片定位：解決 Step 三 顯示問題 */
-    .item-1 { grid-column: 1 / 8; }
-    .item-2 { grid-column: 8 / 13; margin-top: 40px; }
-    .item-3 { grid-column: 1 / 13; border: 1px solid var(--wood-brown); margin-top: 20px; } /* 讓台灣紀錄橫跨全寬以填補空洞 */
-    .item-4 { grid-column: 1 / 13; }
-
-    footer {
-      margin-top: 80px;
-      padding: 40px 0;
-      border-top: 1px solid #333;
-      text-align: center;
-      font-size: 0.8rem;
-      color: #666;
-    }
-
-    @media (max-width: 900px) {
-      .grid-layout { display: flex; flex-direction: column; }
+    @media (max-width: 600px) {
+      .header-box { margin: 25px 0; }
+      .hero-section { height: 220px; }
+      .content-section { padding: 25px 15px; }
+      h1 { font-size: 1.6rem; }
     }
   </style>
 </head>
 <body>
 
-<div class="container">
-  <div class="header-box">
-    <h1>時空掩體：地下避難所紀實</h1>
-    <p style="margin-top:15px; max-width: 700px;">此地下構造興建於 <strong>一九四二至一九四三年</strong>，是松園別館歷史中最幽暗且沉重的戰時見證。</p>
-  </div>
-
-  <div class="grid-layout">
-    <div class="archive-card item-1">
-      <img src="IMG_6761.HEIC" alt="防空洞入口外觀">
-      <div class="card-content">
-        <span class="card-label">STEP 一</span>
-        <div class="card-title">掩體入口處</div>
-        <div class="card-p">
-          厚實的洗石子階梯向下延伸。這裡是當時軍方高層在面臨美軍劇烈轟炸時，最核心的避難與指揮空間。
-        </div>
-      </div>
-    </div>
-
-    <div class="archive-card item-2">
-      <img src="IMG_1465.DNG" alt="防空洞內部構造">
-      <div class="card-content">
-        <span class="card-label">STEP 二</span>
-        <div class="card-title">觀測隧道內部</div>
-        <div class="card-p">
-          內部保留了斑駁磚牆與厚達 <strong>四公分</strong> 的防爆鐵門遺蹟。
-        </div>
-      </div>
-    </div>
-
-    <div class="archive-card item-3">
-      <div class="img-container">
-        <img src="IMG_6773.HEIC" alt="台灣神風特攻隊紀錄">
-      </div>
-      <div class="card-content">
-        <span class="card-label">STEP 三</span>
-        <div class="card-title">台灣神風紀實：白蝴蝶的悲壯告別</div>
-        <div class="card-p">
-          在太平洋戰爭末期的台灣，有一群年輕的特攻隊員被賦予了既美麗又淒哀的稱號——「白蝴蝶」。這不僅象徵著他們如蝴蝶般短暫而燦爛的生命，也寄託了家屬希望他們靈魂能化作白蝶歸鄉的祈願。<br><br>
-          根據史料記載，台灣當時設有包含台中大雅、台南、新竹、宜蘭等地的軍事飛行基地。這段殘酷的自殺襲擊紀錄，始於 <strong>一九四四</strong> 年 <strong>一</strong> 月 <strong>十五</strong> 日由台中機場發動的第一次出征，一直持續到 <strong>一九四五</strong> 年 <strong>六</strong> 月 <strong>七</strong> 日宜蘭機場的最後一次任務。在這一年的半時間裡，全台各基地共計出動了高達 <strong>三四六一</strong> 架次。
-          隊員們在松園別館領受御前酒後，便懷抱著訣別的心情，走入這條幽暗的隧道做最後沉思，隨即飛向太平洋的終局。
-        </div>
-      </div>
-    </div>
-
-    <div class="archive-card item-4">
-      <img src="IMG_6768.HEIC" alt="神風特攻隊的誕生看板">
-      <div class="card-content">
-        <span class="card-label">STEP 四</span>
-        <div class="card-title">神風特攻隊的誕生</div>
-        <div class="card-p">
-          西元 <strong>一九四四</strong> 年，日本於中途島戰役失利後，大西瀧治郎中將提出了「一人、一機、一彈換一艦」的瘋狂構想。
-        </div>
-      </div>
+<div class="postcard-container">
+  <div class="content-section" style="padding-bottom: 0;">
+    <div class="header-box">
+      <h1>時空掩體：地下避難所紀實</h1>
+      <p style="margin-top:15px; line-height: 1.8; color: #bbb;">
+        這座地下防空洞興建於 <strong>1942至1943年</strong>，是松園別館歷史中最幽暗、也最沉重的戰時見證。
+      </p>
     </div>
   </div>
 
-  <footer>
-    🔍 本專案所有影像皆已 upscale 至 <strong>4K 高畫質</strong> [cite: 2026-02-10]。歷史數據均經過「內部事實查核」程序 [cite: 2026-01-01]。
-  </footer>
+  <div class="hero-section">
+    <img src="IMG_6761.jpeg" class="hero-image" alt="掩體入口">
+  </div>
+  <div class="content-section archive-card">
+    <span class="card-label">第一步</span>
+    <div class="card-title">掩體入口處</div>
+    <div class="description">
+      厚實的洗石子階梯向下延伸。這裡是當時軍方高層在面臨美軍劇烈轟炸時，最核心的避難與指揮空間。
+    </div>
+  </div>
+
+  <div class="hero-section">
+    <img src="IMG_1465.jpeg" class="hero-image" alt="觀測隧道">
+  </div>
+  <div class="content-section archive-card">
+    <span class="card-label">第二步</span>
+    <div class="card-title">觀測隧道內部</div>
+    <div class="description">
+      內部保留了斑駁磚牆與厚達 <strong>四公分</strong> 的防爆鐵門遺蹟。空氣中凝聚著沉重的戰時氛圍。
+    </div>
+  </div>
+
+  <div class="hero-section">
+    <img src="IMG_6773.jpeg" class="hero-image" alt="神風特攻隊紀錄">
+  </div>
+  <div class="content-section archive-card">
+    <span class="card-label">第三步</span>
+    <div class="card-title">台灣神風紀實：白蝴蝶的悲壯告別</div>
+    <div class="description">
+      在太平洋戰爭末期的台灣，特攻隊員被稱為「白蝴蝶」。這段紀實錄始於 <strong>1944</strong> 年 <strong>1</strong> 月 <strong>15</strong> 日，持續到 <strong>1945</strong> 年 <strong>6</strong> 月 <strong>7</strong> 日，全台出動高達 <strong>3461</strong> 架次。
+    </div>
+  </div>
+
+  <div class="hero-section">
+    <img src="IMG_6768.jpeg" class="hero-image" alt="看板">
+  </div>
+  <div class="content-section">
+    <span class="card-label">第四步</span>
+    <div class="card-title">神風特攻隊的誕生</div>
+    <div class="description">
+      西元 <strong>1944</strong> 年，日本於中途島戰役失利後，大西瀧治郎中將提出了「一機換一艦」的瘋狂構想。
+    </div>
+    
+    <div style="text-align: center; color: #666; font-size: 0.8rem; margin-top: 50px; border-top: 1px solid #333; padding-top: 20px;">
+      🔍 影像皆經 4k 高畫質處理 [cite: 2026-02-10]
+    </div>
+  </div>
 </div>
 
 </body>
